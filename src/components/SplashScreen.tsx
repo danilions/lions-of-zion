@@ -1,7 +1,6 @@
 "use client";
 import React, { useState, useEffect } from 'react';
 import Image from 'next/image';
-import logoImage from '../../public/assets/images/logo.png.svg';
 
 interface SplashScreenProps {
   duration?: number;
@@ -25,7 +24,7 @@ export default function SplashScreen({ duration = 3000, onComplete }: SplashScre
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-black z-50">
       <Image
-        src={logoImage}
+        src="/assets/images/logo.png.svg"
         alt="Lions of Zion Splash Logo"
         width={180}
         height={180}
@@ -35,9 +34,7 @@ export default function SplashScreen({ duration = 3000, onComplete }: SplashScre
       <span className="text-white text-2xl font-semibold tracking-wide">
         Loading...
       </span>
-    </div>
-  );
-}
+      
       {/* Loading indicator */}
       <div className="absolute bottom-20 left-0 right-0 flex justify-center">
         <div className="w-64 h-1 bg-gray-800 rounded-full overflow-hidden">

@@ -67,27 +67,3 @@ export default function Hero() {
     </section>
   );
 }
-            Defend Truth. Expose Lies. Monitor the global pulse of information warfare.
-          </p>
-          <p className="text-base sm:text-lg md:text-xl leading-relaxed text-cyan-200 font-semibold drop-shadow-md">
-            We are the guardians standing against deception in the digital age.
-          </p>
-        </div>
-        
-        {/* Enhanced Cyber Button with Animation */}
-        <button 
-          className={`cyber-button group relative overflow-hidden text-lg mt-8 px-8 py-3 bg-gradient-to-r from-cyan-600 to-blue-600 text-white font-bold uppercase tracking-wide rounded-lg border border-cyan-400 shadow-xl hover:shadow-2xl transition-all duration-300 transform hover:scale-105 ${
-            animateElements.button ? 'opacity-100' : 'opacity-0'
-          }`}
-        >
-          <span className="relative z-20">JOIN THE NETWORK</span>
-          <span className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-500 opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-10"></span>
-          <span className="absolute -inset-[2px] bg-gradient-to-r from-cyan-400 to-blue-500 opacity-20 blur-sm animate-pulse z-0"></span>
-        </button>
-      </div>
-      
-      {/* Scanner Effect */}
-      <div className="absolute bottom-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-cyan-400/30 to-transparent animate-[scanline_8s_linear_infinite_alternate]"></div>
-    </div>
-  );
-}
