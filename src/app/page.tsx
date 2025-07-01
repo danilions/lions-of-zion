@@ -4,9 +4,11 @@ import UnifiedNetworkCanvas from '@/components/UnifiedNetworkCanvas';
 import LionOverlay from '@/components/LionOverlay';
 import Hero from '@/components/ui/Hero';
 import Skyline from '@/components/Skyline';
+import SplashScreen from '@/components/SplashScreen';
 
 export default function Home() {
   const [pageLoaded, setPageLoaded] = useState(false);
+  const [showSplash, setShowSplash] = useState(true);
   
   useEffect(() => {
     // Mark page as loaded after a brief delay to allow animations to sequence properly
@@ -19,6 +21,9 @@ export default function Home() {
   
   return (
     <main className="relative min-h-screen bg-gradient-to-br from-[#0A0E1A] via-[#091f3b] to-[#254875] overflow-hidden">
+      {/* Splash Screen - Will automatically hide after duration */}
+      {showSplash && <SplashScreen duration={3500} onComplete={() => setShowSplash(false)} />}
+      
       {/* Unified Network Canvas Background - Full Coverage, HiDPI-ready */}
       <UnifiedNetworkCanvas />
       

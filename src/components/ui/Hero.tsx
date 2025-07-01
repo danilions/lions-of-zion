@@ -1,5 +1,7 @@
 "use client";
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
+import heroBackground from '../../../public/backgrounds/hero-background.svg';
 
 export default function Hero() {
   const [animateElements, setAnimateElements] = useState({
@@ -22,7 +24,18 @@ export default function Hero() {
   }, []);
 
   return (
-    <div className="hero-container relative text-center z-10 py-12 px-4">
+    <div className="hero-container relative text-center z-10 py-12 px-4 min-h-screen flex flex-col items-center justify-center">
+      {/* Hero Background */}
+      <div className="absolute inset-0 z-0">
+        <Image
+          src={heroBackground}
+          alt="Hero Background"
+          fill
+          priority
+          style={{ objectFit: 'cover' }}
+          className="opacity-80"
+        />
+      </div>
       {/* Hero Content - With Modern Tailwind Styling and Sequenced Animations */}
       <div className="relative z-20 space-y-10">
         {/* Gold Bold Title with Enhanced Animation */}

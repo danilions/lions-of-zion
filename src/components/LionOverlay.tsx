@@ -1,5 +1,7 @@
 "use client";
 import React, { useEffect, useState } from 'react';
+import Image from 'next/image';
+import logoImage from '../../public/assets/images/logo.png.svg';
 
 export default function LionOverlay() {
   const [animationActive, setAnimationActive] = useState(false);
@@ -26,12 +28,25 @@ export default function LionOverlay() {
           animation: 'lion-breathe 4s ease-in-out infinite'
         }}
       >
-        <div className="text-6xl relative">
+        <div className="relative w-32 h-32">
           <div className="absolute inset-0 flex items-center justify-center animate-pulse" style={{ animationDelay: '0.5s', filter: 'blur(5px)' }}>
-            🦁
+            <Image 
+              src={logoImage} 
+              alt="Lions of Zion Logo" 
+              fill
+              style={{ objectFit: 'contain' }}
+              className="opacity-70"
+              priority
+            />
           </div>
-          <div className="relative">
-            🦁
+          <div className="relative w-full h-full">
+            <Image 
+              src={logoImage} 
+              alt="Lions of Zion Logo" 
+              fill
+              style={{ objectFit: 'contain' }}
+              priority
+            />
           </div>
         </div>
       </div>
