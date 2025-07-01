@@ -14,15 +14,12 @@ export default function Home() {
       <LionOverlay />
       
       {/* Main Content Container - Centered vertically and horizontally */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4 sm:px-6 lg:px-8">
-        {/* Hero Section - Modern Centered Content with proper styling */}
-        <section className="text-center max-w-6xl mx-auto">
-          <Hero />
-        </section>
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-screen max-h-screen px-4 sm:px-6 lg:px-8">
+        <Hero />
       </div>
 
-      {/* Jerusalem Skyline - Fixed, Full-width, Semi-transparent at Bottom */}
-      <div className="fixed bottom-0 left-0 w-full h-32 opacity-75 pointer-events-none z-5">
+      {/* Jerusalem Skyline Background - Fixed Bottom */}
+      <div className="fixed bottom-0 left-0 w-full h-32 opacity-80 pointer-events-none z-5">
         <Skyline />
       </div>
     </main>
