@@ -23,21 +23,21 @@ export default function SplashScreen({ duration = 3000, onComplete }: SplashScre
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black transition-opacity duration-500 animate-fadeIn">
-      <div className="relative w-64 h-64 md:w-80 md:h-80 animate-pulse">
-        {/* Main logo image */}
-        <Image
-          src={logoImage}
-          alt="Lions of Zion Splash Screen"
-          fill
-          priority
-          style={{ objectFit: 'contain' }}
-        />
-        
-        {/* Glow effect */}
-        <div className="absolute inset-0 bg-gradient-to-r from-amber-400 via-yellow-500 to-amber-600 opacity-30 blur-2xl -z-10"></div>
-      </div>
-      
+    <div className="fixed inset-0 flex flex-col items-center justify-center bg-black z-50">
+      <Image
+        src={logoImage}
+        alt="Lions of Zion Splash Logo"
+        width={180}
+        height={180}
+        priority
+        className="mb-8"
+      />
+      <span className="text-white text-2xl font-semibold tracking-wide">
+        Loading...
+      </span>
+    </div>
+  );
+}
       {/* Loading indicator */}
       <div className="absolute bottom-20 left-0 right-0 flex justify-center">
         <div className="w-64 h-1 bg-gray-800 rounded-full overflow-hidden">

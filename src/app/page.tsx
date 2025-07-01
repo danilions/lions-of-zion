@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import UnifiedNetworkCanvas from '@/components/UnifiedNetworkCanvas';
-import LionOverlay from '@/components/LionOverlay';
-import Hero from '@/components/ui/Hero';
-import Skyline from '@/components/Skyline';
-import SplashScreen from '@/components/SplashScreen';
+import Hero from "@/components/ui/Hero";
+import Skyline from "@/components/background/Skyline";
+import SplashScreen from "@/components/SplashScreen";
+import LionOverlay from "@/components/LionOverlay";
+import UnifiedNetworkCanvas from "@/components/UnifiedNetworkCanvas";
 
 export default function Home() {
   const [pageLoaded, setPageLoaded] = useState(false);
@@ -20,7 +20,7 @@ export default function Home() {
   }, []);
   
   return (
-    <main className="relative min-h-screen bg-gradient-to-br from-[#0A0E1A] via-[#091f3b] to-[#254875] overflow-hidden">
+    <main className="relative min-h-screen w-full bg-black">
       {/* Splash Screen - Will automatically hide after duration */}
       {showSplash && <SplashScreen duration={3500} onComplete={() => setShowSplash(false)} />}
       

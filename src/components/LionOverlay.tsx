@@ -17,7 +17,7 @@ export default function LionOverlay() {
   }, []);
   
   return (
-    <div className="fixed top-0 left-0 w-full h-full pointer-events-none z-40 flex items-center justify-center">
+    <div className="absolute inset-0 flex items-center justify-center pointer-events-none z-20">
       {/* Main Lion Emblem with Enhanced Breathing Animation */}
       <div 
         className={`absolute top-8 right-8 w-40 h-40 rounded-full bg-gradient-to-br from-yellow-500 via-amber-400 to-yellow-600 shadow-2xl flex items-center justify-center transform transition-all duration-1000 ${
