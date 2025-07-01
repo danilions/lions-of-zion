@@ -8,7 +8,8 @@
     "start": "next start",
     "lint": "next lint",
     "check:deps": "npm ls --depth=0",
-    "check:build-deps": "node -e \"try{require('tailwindcss'); console.log('✓ Tailwind CSS available')}catch{console.log('✗ Tailwind CSS missing')}\" && node -e \"try{require('postcss'); console.log('✓ PostCSS available')}catch{console.log('✗ PostCSS missing')}\""
+    "check:build-deps": "node -e \"try{require('tailwindcss'); console.log('✓ Tailwind CSS available')}catch{console.log('✗ Tailwind CSS missing')}\" && node -e \"try{require('postcss'); console.log('✓ PostCSS available')}catch{console.log('✗ PostCSS missing')}\"",
+    "test": "jest"
   },
   "dependencies": {
     "autoprefixer": "^10.4.21",
@@ -21,12 +22,17 @@
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4.1.11",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/jest": "^30.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "depcheck": "^1.4.7",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
+    "jest": "^30.0.3",
+    "jest-environment-jsdom": "^30.0.2",
     "jscpd": "^4.0.5",
     "typescript": "^5"
   }
