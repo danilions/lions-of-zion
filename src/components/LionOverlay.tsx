@@ -1,6 +1,5 @@
 "use client";
 import React, { useEffect, useState } from 'react';
-import Image from 'next/image';
 
 export default function LionOverlay() {
   const [animationActive, setAnimationActive] = useState(false);
@@ -95,4 +94,5 @@ export default function LionOverlay() {
       `}</style>
     </div>
   );
+}
 }
