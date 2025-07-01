@@ -1,11 +1,12 @@
 'use client'
 
-import { useEffect, useRef } from 'react'
+import { useEffect, useRef, useCallback } from 'react'
 
 export default function NetworkMapCanvas() {
   const canvasRef = useRef<HTMLCanvasElement>(null)
 
-  useEffect(() => {
+  // Wrap render function with useCallback so it can be a dependency
+  const render = useCallback(() => {
     const canvas = canvasRef.current
     if (!canvas) return
 
@@ -23,7 +24,6 @@ export default function NetworkMapCanvas() {
 
     // Animation state
     let animationId: number
-    let time = 0
 
     // Network nodes
     const nodes = Array.from({ length: 20 }, () => ({
@@ -33,8 +33,7 @@ export default function NetworkMapCanvas() {
       vy: (Math.random() - 0.5) * 0.5,
     }))
 
-    // Render function
-    const render = () => {
+    const animate = () => {
       ctx.clearRect(0, 0, canvas.width, canvas.height)
       
       // Update nodes
@@ -74,17 +73,20 @@ export default function NetworkMapCanvas() {
         ctx.fill()
       })
       
-      time += 0.01
-      animationId = requestAnimationFrame(render)
+      animationId = requestAnimationFrame(animate)
     }
 
-    render()
+    animate()
 
     return () => {
       cancelAnimationFrame(animationId)
       window.removeEventListener('resize', resizeCanvas)
     }
   }, [])
+
+  useEffect(() => {
+    return render()
+  }, [render]) // Added render as a dependency to fix the warning
 
   return (
     <canvas
