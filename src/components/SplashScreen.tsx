@@ -24,7 +24,7 @@ export default function SplashScreen({ duration = 3000, onComplete }: SplashScre
   return (
     <div className="fixed inset-0 flex flex-col items-center justify-center bg-black z-50">
       <Image
-        src="/assets/images/logo.png.svg"
+        src="/assets/images/logo.svg"
         alt="Lions of Zion Splash Logo"
         width={180}
         height={180}
