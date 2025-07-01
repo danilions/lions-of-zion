@@ -6,8 +6,7 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "install:prod": "npm install --omit=dev"
+    "lint": "next lint"
   },
   "dependencies": {
     "next": "15.3.4",
