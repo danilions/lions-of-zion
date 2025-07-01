@@ -53,6 +53,7 @@ export default {
         'glow': 'glow 2s ease-in-out infinite alternate',
         'float': 'float 3s ease-in-out infinite',
         'lion-breathe': 'lion-breathe 4s ease-in-out infinite',
+        'scanline': 'scanline 4s linear infinite',
       },
       keyframes: {
         'pulse-neon': {
@@ -81,6 +82,18 @@ export default {
           '50%': {
             opacity: '1',
             transform: 'scale(1.05) translateY(-3px)',
+          },
+        },
+        'scanline': {
+          '0%': { 
+            transform: 'translateY(0)',
+            opacity: '0'
+          },
+          '5%': { opacity: '0.5' },
+          '95%': { opacity: '0.5' },
+          '100%': { 
+            transform: 'translateY(100vh)',
+            opacity: '0'
           },
         },
       },
