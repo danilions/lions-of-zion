@@ -1,10 +1,10 @@
 "use client";
 import React, { useState, useEffect } from 'react';
-import Hero from "@/components/ui/Hero";
-import Skyline from "@/components/Skyline";
-import SplashScreen from "@/components/SplashScreen";
-import LionOverlay from "@/components/LionOverlay";
-import UnifiedNetworkCanvas from "@/components/UnifiedNetworkCanvas";
+import Hero from "../components/ui/Hero";
+import Skyline from "../components/Skyline";
+import SplashScreen from "../components/SplashScreen";
+import LionOverlay from "../components/LionOverlay";
+import UnifiedNetworkCanvas from "../components/UnifiedNetworkCanvas";
 
 export default function Home() {
   const [pageLoaded, setPageLoaded] = useState(false);
