@@ -86,7 +86,7 @@ export default function NetworkMapCanvas() {
 
   useEffect(() => {
     return render()
-  }, [render])
+  }, [render]) // Added render as a dependency to fix the warning
 
   return (
     <canvas
