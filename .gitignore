@@ -39,3 +39,12 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+node_modules/
+.next/
+__MACOSX/
+*.log
+*.map
+*.zip
+duplicates.txt
+AzuriteConfig
+__azurite_db_table*.json

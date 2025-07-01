@@ -39,6 +39,24 @@ export default function UnifiedNetworkCanvas() {
   const MAX_CONNECTION_DISTANCE = 220
   const TRAIL_LENGTH = 18
 
+  /** 
+   * Recompute the connection list for every node based on distance.
+   * Extracted from duplicated logic in initializeNodes and updateNodes.
+   */
+  function recalculateConnections() {
+    nodesRef.current.forEach((node, i) => {
+      node.connections = []
+      nodesRef.current.forEach((otherNode, j) => {
+        if (i !== j) {
+          const dist = Math.hypot(node.x - otherNode.x, node.y - otherNode.y)
+          if (dist < MAX_CONNECTION_DISTANCE && node.connections.length < 4) {
+            node.connections.push(j)
+          }
+        }
+      })
+    })
+  }
+
   const initializeNodes = useCallback((width: number, height: number) => {
     nodesRef.current = Array.from({ length: NODE_COUNT }, () => ({
       x: Math.random() * width,
@@ -53,18 +71,8 @@ export default function UnifiedNetworkCanvas() {
       intensity: 0.6 + Math.random() * 0.4
     }))
 
-    // Calculate connections
-    nodesRef.current.forEach((node, i) => {
-      node.connections = []
-      nodesRef.current.forEach((otherNode, j) => {
-        if (i !== j) {
-          const dist = Math.hypot(node.x - otherNode.x, node.y - otherNode.y)
-          if (dist < MAX_CONNECTION_DISTANCE && node.connections.length < 4) {
-            node.connections.push(j)
-          }
-        }
-      })
-    })
+    // Calculate initial connections
+    recalculateConnections()
   }, [])
 
   const initializeFlowingPoints = useCallback((width: number, height: number) => {
@@ -105,17 +113,7 @@ export default function UnifiedNetworkCanvas() {
 
     // Recalculate connections
     if (timeRef.current % 120 === 0) {
-      nodesRef.current.forEach((node, i) => {
-        node.connections = []
-        nodesRef.current.forEach((otherNode, j) => {
-          if (i !== j) {
-            const dist = Math.hypot(node.x - otherNode.x, node.y - otherNode.y)
-            if (dist < MAX_CONNECTION_DISTANCE && node.connections.length < 4) {
-              node.connections.push(j)
-            }
-          }
-        })
-      })
+      recalculateConnections()
     }
   }, [])
 
