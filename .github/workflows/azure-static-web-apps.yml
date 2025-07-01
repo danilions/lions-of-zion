@@ -27,9 +27,17 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: '20.x'
+          cache: 'npm'
 
       - name: Install dependencies
-        run: npm install
+        run: npm ci
+
+      - name: Check dependencies
+        run: |
+          echo "Checking for missing dependencies..."
+          npm run check:deps
+          echo "Verifying build tools..."
+          npm run check:build-deps
 
       - name: Build app
         run: npm run build

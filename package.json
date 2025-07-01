@@ -6,7 +6,9 @@
     "dev": "next dev --turbopack",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check:deps": "npm ls --depth=0",
+    "check:build-deps": "node -e \"try{require('tailwindcss'); console.log('✓ Tailwind CSS available')}catch{console.log('✗ Tailwind CSS missing')}\" && node -e \"try{require('postcss'); console.log('✓ PostCSS available')}catch{console.log('✗ PostCSS missing')}\""
   },
   "dependencies": {
     "next": "15.3.4",
