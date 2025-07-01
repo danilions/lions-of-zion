@@ -1,20 +1,21 @@
-import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import type { Metadata, Viewport } from "next";
+import React from "react";
 import "./globals.css";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
-
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
-  subsets: ["latin"],
-});
-
 export const metadata: Metadata = {
-  title: "Lions of Zion – Global Narrative Pulse",
-  description: "AI-powered network dedicated to exposing false narratives and defending truth globally.",
+  title: "Lions of Zion - Global Narrative Pulse",
+  description: "Defend Truth. Expose Lies. Monitor the global pulse of information.",
+  keywords: ["truth", "information", "narrative", "lions", "zion", "pulse"],
+  authors: [{ name: "Lions of Zion" }],
+  icons: {
+    icon: "/assets/images/logo.png.svg",
+    apple: "/assets/images/logo.png.svg",
+  },
+};
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
 };
 
 export default function RootLayout({
@@ -24,11 +25,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased bg-[#06192f] text-white`}
-      >
-        {children}
-      </body>
+      <body className="antialiased">{children}</body>
     </html>
   );
 }
