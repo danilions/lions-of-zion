@@ -23,7 +23,7 @@ export default function SplashScreen({ duration = 3000, onComplete }: SplashScre
   if (!isVisible) return null;
 
   return (
-    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black transition-opacity duration-500">
+    <div className="fixed inset-0 z-50 flex items-center justify-center bg-black transition-opacity duration-500 animate-fadeIn">
       <div className="relative w-64 h-64 md:w-80 md:h-80 animate-pulse">
         {/* Main logo image */}
         <Image
@@ -57,6 +57,11 @@ export default function SplashScreen({ duration = 3000, onComplete }: SplashScre
         @keyframes loading {
           0% { width: 0%; }
           100% { width: 100%; }
+        }
+        
+        @keyframes fadeIn {
+          0% { opacity: 0; }
+          100% { opacity: 1; }
         }
       `}</style>
     </div>
