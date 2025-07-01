@@ -74,7 +74,8 @@ export default function HeartbeatLine() {
       canvas.width = rect.width * dpr;
       canvas.height = rect.height * dpr;
 
-      // Scale the drawing context so everything will work at the higher ratio
+      // Reset any existing transforms then scale for the current DPR
+      ctx.setTransform(1, 0, 0, 1, 0, 0);
       ctx.scale(dpr, dpr);
 
       // Set display size (CSS pixels)
