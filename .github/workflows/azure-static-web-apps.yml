@@ -22,4 +22,9 @@ jobs:
       - run: npm run build
       - uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.b4d1c91bd03e32d1289a786295ee0a55cb3cc47f0b379f430b39db1fa7312a4802-ee017651-0231-4917-8b01-d2cd4f8cb67e00318200fff37803 }}
+          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          action: "upload"
+          app_location: "/"               # נתיב לשורש הפרויקט שלך
+          api_location: ""               # אין API בפרויקט (אפשר לשנות אם יש)
+          output_location: ".next"       # תיקיית הבניה של Next.js
