@@ -23,7 +23,6 @@ export default function NetworkMapCanvas() {
 
     // Animation state
     let animationId: number
-    let time = 0
 
     // Network nodes
     const nodes = Array.from({ length: 20 }, () => ({
@@ -74,7 +73,6 @@ export default function NetworkMapCanvas() {
         ctx.fill()
       })
       
-      time += 0.01
       animationId = requestAnimationFrame(render)
     }
 

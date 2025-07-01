@@ -1,15 +1,19 @@
 'use client';
 import React from 'react';
+import Image from 'next/image';
 
 export default function WorldMapBg() {
   return (
     <>
       <div className="absolute left-1/2 top-[180px] -translate-x-1/2 w-[900px] max-w-[97vw] h-[400px] opacity-60 pointer-events-none z-0 animate-pulse-map drop-shadow-lg filter-brightness">
-        <img
+        <Image
           src="https://www.pngall.com/wp-content/uploads/1/World-Map-PNG-Image-File.png"
           alt="World Map"
+          width={900}
+          height={400}
           className="w-full h-full object-contain filter-darken"
           style={{ filter: 'drop-shadow(0 0 20px #0ca3ff) drop-shadow(0 0 10px #1b2a49)' }}
+          priority={true}
         />
       </div>
 

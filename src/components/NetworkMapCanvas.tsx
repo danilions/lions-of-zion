@@ -1,7 +1,7 @@
 // הוספת קוד מלא לקובץ NetworkMapCanvas.tsx בקומפוננטת React מבוססת Canvas עם אנימציה מתקדמת של רשת נקודות וקווים
 
 'use client';
-import React, { useRef, useEffect } from 'react';
+import React, { useRef, useEffect, useCallback } from 'react';
 
 type Point = {
   x: number;
@@ -38,7 +38,7 @@ export default function NetworkMapCanvas() {
     return Math.hypot(p1.x - p2.x, p1.y - p2.y);
   };
 
-  const draw = (ctx: CanvasRenderingContext2D, width: number, height: number) => {
+  const draw = useCallback((ctx: CanvasRenderingContext2D, width: number, height: number) => {
     ctx.clearRect(0, 0, width, height);
     ctx.lineCap = 'round';
 
@@ -84,7 +84,7 @@ export default function NetworkMapCanvas() {
     }
 
     ctx.globalAlpha = 1;
-  };
+  }, []);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -120,7 +120,7 @@ export default function NetworkMapCanvas() {
       if (animationFrameId.current) cancelAnimationFrame(animationFrameId.current);
       window.removeEventListener('resize', resizeCanvas);
     };
-  }, []);
+  }, [draw]);
 
   return (
     <canvas
