@@ -1,5 +1,3 @@
-// הוספת קוד מלא לקובץ NetworkMapCanvas.tsx בקומפוננטת React מבוססת Canvas עם אנימציה מתקדמת של רשת נקודות וקווים
-
 'use client';
 import React, { useRef, useEffect, useCallback } from 'react';
 
@@ -20,7 +18,7 @@ export default function NetworkMapCanvas() {
   const POINT_COUNT = 120;
   const MAX_DISTANCE = 120;
 
-  const initPoints = (width: number, height: number) => {
+  const initPoints = useCallback((width: number, height: number) => {
     points.current = [];
     for (let i = 0; i < POINT_COUNT; i++) {
       points.current.push({
@@ -32,11 +30,11 @@ export default function NetworkMapCanvas() {
         pulseSpeed: 0.005 + Math.random() * 0.007,
       });
     }
-  };
+  }, []);
 
-  const distance = (p1: Point, p2: Point) => {
+  const distance = useCallback((p1: Point, p2: Point) => {
     return Math.hypot(p1.x - p2.x, p1.y - p2.y);
-  };
+  }, []);
 
   const draw = useCallback((ctx: CanvasRenderingContext2D, width: number, height: number) => {
     ctx.clearRect(0, 0, width, height);
@@ -84,7 +82,7 @@ export default function NetworkMapCanvas() {
     }
 
     ctx.globalAlpha = 1;
-  }, []);
+  }, [distance]);
 
   useEffect(() => {
     const canvas = canvasRef.current;
@@ -108,7 +106,6 @@ export default function NetworkMapCanvas() {
     resizeCanvas();
 
     const animate = () => {
-      if (!ctx) return;
       draw(ctx, canvas.clientWidth, canvas.clientHeight);
       animationFrameId.current = requestAnimationFrame(animate);
     };
@@ -120,7 +117,7 @@ export default function NetworkMapCanvas() {
       if (animationFrameId.current) cancelAnimationFrame(animationFrameId.current);
       window.removeEventListener('resize', resizeCanvas);
     };
-  }, [draw]);
+  }, [draw, initPoints]);
 
   return (
     <canvas

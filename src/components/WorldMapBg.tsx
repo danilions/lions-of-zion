@@ -1,64 +1,94 @@
-'use client';
-import React from 'react';
-import Image from 'next/image';
+'use client'
 
-export default function WorldMapBg() {
+import { useEffect, useRef } from 'react'
+
+export default function NetworkMapCanvas() {
+  const canvasRef = useRef<HTMLCanvasElement>(null)
+
+  useEffect(() => {
+    const canvas = canvasRef.current
+    if (!canvas) return
+
+    const ctx = canvas.getContext('2d')
+    if (!ctx) return
+
+    // Set canvas size
+    const resizeCanvas = () => {
+      canvas.width = window.innerWidth
+      canvas.height = window.innerHeight
+    }
+
+    resizeCanvas()
+    window.addEventListener('resize', resizeCanvas)
+
+    // Animation state
+    let animationId: number
+
+    // Network nodes
+    const nodes = Array.from({ length: 20 }, () => ({
+      x: Math.random() * canvas.width,
+      y: Math.random() * canvas.height,
+      vx: (Math.random() - 0.5) * 0.5,
+      vy: (Math.random() - 0.5) * 0.5,
+    }))
+
+    // Render function
+    const render = () => {
+      ctx.clearRect(0, 0, canvas.width, canvas.height)
+
+      // Update nodes
+      nodes.forEach(node => {
+        node.x += node.vx
+        node.y += node.vy
+
+        // Bounce off edges
+        if (node.x <= 0 || node.x >= canvas.width) node.vx *= -1
+        if (node.y <= 0 || node.y >= canvas.height) node.vy *= -1
+      })
+
+      // Draw connections
+      ctx.strokeStyle = 'rgba(0, 174, 239, 0.1)'
+      ctx.lineWidth = 1
+
+      for (let i = 0; i < nodes.length; i++) {
+        for (let j = i + 1; j < nodes.length; j++) {
+          const dx = nodes[i].x - nodes[j].x
+          const dy = nodes[i].y - nodes[j].y
+          const distance = Math.sqrt(dx * dx + dy * dy)
+
+          if (distance < 150) {
+            ctx.beginPath()
+            ctx.moveTo(nodes[i].x, nodes[i].y)
+            ctx.lineTo(nodes[j].x, nodes[j].y)
+            ctx.stroke()
+          }
+        }
+      }
+
+      // Draw nodes
+      ctx.fillStyle = 'rgba(0, 174, 239, 0.6)'
+      nodes.forEach(node => {
+        ctx.beginPath()
+        ctx.arc(node.x, node.y, 3, 0, Math.PI * 2)
+        ctx.fill()
+      })
+
+      animationId = requestAnimationFrame(render)
+    }
+
+    render()
+
+    return () => {
+      cancelAnimationFrame(animationId)
+      window.removeEventListener('resize', resizeCanvas)
+    }
+  }, []) // useEffect with empty dependencies since no external references
+
   return (
-    <>
-      <div className="absolute left-1/2 top-[180px] -translate-x-1/2 w-[900px] max-w-[97vw] h-[400px] opacity-60 pointer-events-none z-0 animate-pulse-map drop-shadow-lg filter-brightness">
-        <Image
-          src="https://www.pngall.com/wp-content/uploads/1/World-Map-PNG-Image-File.png"
-          alt="World Map"
-          width={900}
-          height={400}
-          className="w-full h-full object-contain filter-darken"
-          style={{ filter: 'drop-shadow(0 0 20px #0ca3ff) drop-shadow(0 0 10px #1b2a49)' }}
-          priority={true}
-        />
-      </div>
-
-      {/* Animated Lion SVG overlay top-right corner */}
-      <svg
-        className="absolute top-4 right-6 w-32 h-32 opacity-80 animate-lion-breathe pointer-events-none"
-        viewBox="0 0 64 64"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-      >
-        <path
-          fillRule="evenodd"
-          clipRule="evenodd"
-          d="M32 4C22 12 16 24 16 24s-4 11-4 20c0 9 4 16 4 16s2-8 4-12c2-4 8-8 8-8s6 4 8 8c2 4 4 12 4 12s4-7 4-16c0-9-4-20-4-20s-6-12-16-20z"
-          fill="#FFD700"
-          stroke="#FFA500"
-          strokeWidth="1"
-        />
-      </svg>
-
-      <style jsx>{`
-        @keyframes pulse-map {
-          0%, 100% { filter: brightness(0.6) drop-shadow(0 0 20px #0ca3ff) drop-shadow(0 0 10px #1b2a49); }
-          50% { filter: brightness(0.8) drop-shadow(0 0 30px #2fb4ff) drop-shadow(0 0 15px #2a3a66); }
-        }
-        .animate-pulse-map {
-          animation: pulse-map 6s ease-in-out infinite;
-        }
-
-        @keyframes lion-breathe {
-          0%, 100% { opacity: 0.8; transform: scale(1) translateY(0); }
-          50% { opacity: 1; transform: scale(1.05) translateY(-3px); }
-        }
-        .animate-lion-breathe {
-          animation: lion-breathe 4s ease-in-out infinite;
-        }
-
-        .filter-brightness {
-          filter: brightness(0.6) contrast(1.2) saturate(0.9);
-        }
-
-        .filter-darken {
-          filter: brightness(0.5) contrast(1.3) saturate(0.8);
-        }
-      `}</style>
-    </>
-  );
+    <canvas
+      ref={canvasRef}
+      className="absolute inset-0 w-full h-full"
+      style={{ pointerEvents: 'none' }}
+    />
+  )
 }
