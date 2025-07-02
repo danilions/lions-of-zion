@@ -1,6 +1,6 @@
-'use client'
+"use client";
 
-import React from 'react';
+import React from "react";
 
 export default function Skyline() {
   return (
@@ -10,10 +10,10 @@ export default function Skyline() {
       preserveAspectRatio="xMidYMax slice"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
-      style={{ 
-        filter: 'drop-shadow(0 -5px 15px rgba(0, 174, 239, 0.3))',
-        position: 'relative',
-        zIndex: 5
+      style={{
+        filter: "drop-shadow(0 -5px 15px rgba(0, 174, 239, 0.3))",
+        position: "relative",
+        zIndex: 5,
       }}
     >
       <path
@@ -27,5 +27,5 @@ export default function Skyline() {
         </linearGradient>
       </defs>
     </svg>
-  )
+  );
 }

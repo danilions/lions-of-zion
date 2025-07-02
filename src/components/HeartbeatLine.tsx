@@ -1,5 +1,5 @@
-'use client';
-import React, { useEffect, useRef } from 'react';
+"use client";
+import React, { useEffect, useRef } from "react";
 
 export default function HeartbeatLine() {
   const canvasRef = useRef<HTMLCanvasElement | null>(null);
@@ -8,7 +8,7 @@ export default function HeartbeatLine() {
   useEffect(() => {
     const canvas = canvasRef.current;
     if (!canvas) return;
-    const ctx = canvas.getContext('2d');
+    const ctx = canvas.getContext("2d");
     if (!ctx) return;
 
     const animationSpeed = 2;
@@ -19,10 +19,10 @@ export default function HeartbeatLine() {
       ctx.clearRect(0, 0, canvas.width, canvas.height);
 
       // Set line style
-      ctx.strokeStyle = '#1ec6ff';
+      ctx.strokeStyle = "#1ec6ff";
       ctx.lineWidth = 3;
-      ctx.lineCap = 'round';
-      ctx.lineJoin = 'round';
+      ctx.lineCap = "round";
+      ctx.lineJoin = "round";
 
       // Draw heartbeat line
       ctx.beginPath();
@@ -51,15 +51,15 @@ export default function HeartbeatLine() {
       ctx.stroke();
 
       // Draw TRUE label (green)
-      ctx.font = 'bold 16px Arial, sans-serif';
-      ctx.fillStyle = '#22c55e';
-      ctx.textAlign = 'left';
-      ctx.fillText('TRUE', 20, 25);
+      ctx.font = "bold 16px Arial, sans-serif";
+      ctx.fillStyle = "#22c55e";
+      ctx.textAlign = "left";
+      ctx.fillText("TRUE", 20, 25);
 
       // Draw FALSE label (red)
-      ctx.fillStyle = '#ef4444';
-      ctx.textAlign = 'right';
-      ctx.fillText('FALSE', canvas.width - 20, canvas.height - 15);
+      ctx.fillStyle = "#ef4444";
+      ctx.textAlign = "right";
+      ctx.fillText("FALSE", canvas.width - 20, canvas.height - 15);
 
       // Update animation
       time += animationSpeed;
@@ -78,8 +78,8 @@ export default function HeartbeatLine() {
       ctx.scale(dpr, dpr);
 
       // Set display size (CSS pixels)
-      canvas.style.width = rect.width + 'px';
-      canvas.style.height = rect.height + 'px';
+      canvas.style.width = rect.width + "px";
+      canvas.style.height = rect.height + "px";
     };
 
     // Initial setup
@@ -91,13 +91,13 @@ export default function HeartbeatLine() {
       resizeCanvas();
     };
 
-    window.addEventListener('resize', handleResize);
+    window.addEventListener("resize", handleResize);
 
     return () => {
       if (animationFrameId.current) {
         cancelAnimationFrame(animationFrameId.current);
       }
-      window.removeEventListener('resize', handleResize);
+      window.removeEventListener("resize", handleResize);
     };
   }, []);
 
@@ -105,7 +105,7 @@ export default function HeartbeatLine() {
     <canvas
       ref={canvasRef}
       className="w-full h-full border border-cyan-500/20 rounded-lg bg-gradient-to-r from-slate-900/50 to-blue-900/30 shadow-lg"
-      style={{ minHeight: '60px' }}
+      style={{ minHeight: "60px" }}
     />
   );
 }

@@ -1,22 +1,23 @@
 # Code Citations
 
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
 ": {
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
 ": {
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -24,8 +25,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "target
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -33,8 +34,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "target
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -42,8 +43,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "target": "es5
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -51,8 +52,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "target": "es5
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -61,8 +62,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -71,8 +72,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -81,8 +82,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "lib
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -91,8 +92,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "lib
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -101,8 +102,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "lib": ["dom",
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -111,8 +112,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "lib": ["dom",
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -121,8 +122,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "lib": ["dom", "dom.it
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -131,8 +132,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "lib": ["dom", "dom.it
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -141,8 +142,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "lib": ["dom", "dom.iterable", "
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -151,8 +152,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "lib": ["dom", "dom.iterable", "
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -161,8 +162,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "lib": ["dom", "dom.iterable", "esnext"],
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -171,8 +172,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "lib": ["dom", "dom.iterable", "esnext"],
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -182,8 +183,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "allowJs
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -193,8 +194,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "allowJs
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -204,8 +205,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "allowJs": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -215,8 +216,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "allowJs": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -226,8 +227,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "allowJs": true,
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -238,8 +239,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "skipLib
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -250,8 +251,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "skipLib
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -262,8 +263,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "skipLib
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -274,8 +275,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "skipLibCheck": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -286,8 +287,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "skipLibCheck": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -298,8 +299,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "skipLibCheck": true,
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -311,8 +312,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "strict
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -324,8 +325,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "strict
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -337,8 +338,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "strict
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -350,8 +351,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "strict": true
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -363,8 +364,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "strict": true
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -376,8 +377,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "strict": true
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -390,8 +391,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -404,8 +405,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -418,8 +419,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -432,8 +433,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "no
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -446,8 +447,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "no
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -460,8 +461,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "no
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -474,8 +475,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "no
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -488,8 +489,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "noEmit
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -502,8 +503,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "noEmit
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -516,8 +517,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "noEmit
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -530,8 +531,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "noEmit
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -544,8 +545,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "noEmit": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -558,8 +559,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "noEmit": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -572,8 +573,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "noEmit": true,
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -586,8 +587,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "noEmit": true,
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -601,8 +602,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "es
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -616,8 +617,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "es
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -631,8 +632,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "es
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -646,8 +647,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "es
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -661,8 +662,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "esModuleInterop
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -676,8 +677,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "esModuleInterop
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -691,8 +692,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "esModuleInterop
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -706,8 +707,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "esModuleInterop
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -721,8 +722,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "esModuleInterop": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -736,8 +737,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "esModuleInterop": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -751,8 +752,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "esModuleInterop": true,
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -766,8 +767,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "esModuleInterop": true,
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -782,8 +783,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "module":
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -798,8 +799,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "module":
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -814,8 +815,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "module":
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -830,8 +831,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "module":
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -846,8 +847,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "module":
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -862,8 +863,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "module": "esnext
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -878,8 +879,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "module": "esnext
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -894,8 +895,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "module": "esnext
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -910,8 +911,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "module": "esnext
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -926,8 +927,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "module": "esnext
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -943,8 +944,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -960,8 +961,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -977,8 +978,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -994,8 +995,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1011,8 +1012,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1028,8 +1029,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "moduleResolution":
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1045,8 +1046,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "moduleResolution":
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1062,8 +1063,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "moduleResolution":
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -1079,8 +1080,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "moduleResolution":
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1096,8 +1097,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "moduleResolution":
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1113,8 +1114,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "moduleResolution": "bun
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1130,8 +1131,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "moduleResolution": "bun
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1147,8 +1148,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "moduleResolution": "bun
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -1164,8 +1165,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "moduleResolution": "bun
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1181,8 +1182,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "moduleResolution": "bun
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1198,8 +1199,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "moduleResolution": "bundler
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1215,8 +1216,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "moduleResolution": "bundler
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1232,8 +1233,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "moduleResolution": "bundler
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -1249,8 +1250,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "moduleResolution": "bundler
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1266,8 +1267,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "moduleResolution": "bundler
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1284,8 +1285,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1302,8 +1303,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1320,8 +1321,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -1338,8 +1339,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1356,8 +1357,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1374,8 +1375,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "resolveJsonModule
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1392,8 +1393,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "resolveJsonModule
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1410,8 +1411,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "resolveJsonModule
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -1428,8 +1429,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "resolveJsonModule
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1446,8 +1447,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "resolveJsonModule
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1464,8 +1465,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "resolveJsonModule": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1482,8 +1483,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "resolveJsonModule": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1500,8 +1501,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "resolveJsonModule": true,
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -1518,8 +1519,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "resolveJsonModule": true,
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1536,8 +1537,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "resolveJsonModule": true,
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1555,8 +1556,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "isolate
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1574,8 +1575,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "isolate
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1593,8 +1594,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "isolate
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -1612,8 +1613,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "isolate
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1631,8 +1632,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "isolate
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1650,8 +1651,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "isolatedModules": true
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1669,8 +1670,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "isolatedModules": true
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1688,8 +1689,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "isolatedModules": true
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -1707,8 +1708,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "isolatedModules": true
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1726,8 +1727,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "isolatedModules": true
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1746,8 +1747,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1766,8 +1767,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1786,8 +1787,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -1806,8 +1807,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1826,8 +1827,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1846,8 +1847,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "jsx
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1866,8 +1867,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "jsx
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1886,8 +1887,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "jsx
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -1906,8 +1907,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "jsx
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -1926,8 +1927,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "jsx
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -1946,8 +1947,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "jsx": "preserve",
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -1966,8 +1967,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "jsx": "preserve",
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -1986,8 +1987,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "jsx": "preserve",
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -2006,8 +2007,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "jsx": "preserve",
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -2026,8 +2027,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "jsx": "preserve",
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -2047,8 +2048,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "incre
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -2068,8 +2069,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "incre
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -2089,8 +2090,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "incre
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -2110,8 +2111,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "incre
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -2131,8 +2132,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "incre
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -2152,8 +2153,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "incremental": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -2173,8 +2174,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "incremental": true,
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -2194,8 +2195,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "incremental": true,
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -2215,8 +2216,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "incremental": true,
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -2236,8 +2237,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "incremental": true,
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -2258,8 +2259,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "plugins
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -2280,8 +2281,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "plugins
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -2302,8 +2303,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "plugins
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -2324,8 +2325,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "plugins
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -2346,8 +2347,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "plugins
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -2366,11 +2367,11 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
-      
+
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -2389,11 +2390,11 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
-      
+
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -2412,11 +2413,11 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
-      
+
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -2435,11 +2436,11 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
-      
+
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -2458,11 +2459,11 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "jsx": "preserve",
     "incremental": true,
     "plugins": [
-      
+
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -2485,8 +2486,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
         "
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -2509,8 +2510,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
         "
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -2533,8 +2534,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
         "
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -2557,8 +2558,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
         "
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -2581,8 +2582,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
         "
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -2605,8 +2606,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
         "name": "next
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -2629,8 +2630,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
         "name": "next
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -2653,8 +2654,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
         "name": "next
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -2677,8 +2678,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
         "name": "next
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -2701,8 +2702,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
         "name": "next
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -2726,8 +2727,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
       }
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -2751,8 +2752,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
       }
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -2776,8 +2777,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
       }
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -2801,8 +2802,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
       }
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -2826,8 +2827,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
       }
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -2851,8 +2852,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
       }
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -2876,8 +2877,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
       }
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -2902,8 +2903,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     ],
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -2928,8 +2929,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
     ],
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -2954,8 +2955,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     ],
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -2980,8 +2981,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     ],
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -3006,8 +3007,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
     ],
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -3032,8 +3033,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     ],
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -3058,8 +3059,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     ],
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -3085,8 +3086,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "base
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -3112,8 +3113,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
     "base
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -3139,8 +3140,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "base
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -3166,8 +3167,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "base
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -3193,8 +3194,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
     "base
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -3220,8 +3221,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "base
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -3247,8 +3248,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "base
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -3274,8 +3275,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "baseUrl": ".",
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -3301,8 +3302,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
     "baseUrl": ".",
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -3328,8 +3329,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "baseUrl": ".",
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -3355,8 +3356,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "baseUrl": ".",
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -3382,8 +3383,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
     "baseUrl": ".",
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -3409,8 +3410,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "baseUrl": ".",
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -3436,8 +3437,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "baseUrl": ".",
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -3464,8 +3465,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "paths
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -3492,8 +3493,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
     "paths
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -3520,8 +3521,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "paths
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -3548,8 +3549,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "paths
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -3576,8 +3577,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
     "paths
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -3604,8 +3605,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "paths
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -3632,8 +3633,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "paths
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -3658,11 +3659,11 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     ],
     "baseUrl": ".",
     "paths": {
-      
+
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -3687,11 +3688,11 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
     ],
     "baseUrl": ".",
     "paths": {
-      
+
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -3716,11 +3717,11 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     ],
     "baseUrl": ".",
     "paths": {
-      
+
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -3745,11 +3746,11 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     ],
     "baseUrl": ".",
     "paths": {
-      
+
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -3774,11 +3775,11 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
     ],
     "baseUrl": ".",
     "paths": {
-      
+
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -3803,11 +3804,11 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     ],
     "baseUrl": ".",
     "paths": {
-      
+
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -3832,11 +3833,11 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     ],
     "baseUrl": ".",
     "paths": {
-      
+
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -3864,8 +3865,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
       "@/*": ["
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -3893,8 +3894,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
       "@/*": ["
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -3922,8 +3923,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
       "@/*": ["
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -3951,8 +3952,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
       "@/*": ["
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -3980,8 +3981,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
       "@/*": ["
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -4009,8 +4010,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
       "@/*": ["
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -4038,8 +4039,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
       "@/*": ["
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -4067,8 +4068,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
       "@/*": ["./
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -4096,8 +4097,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
       "@/*": ["./
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -4125,8 +4126,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
       "@/*": ["./
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -4154,8 +4155,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
       "@/*": ["./
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -4183,8 +4184,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
       "@/*": ["./
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -4212,8 +4213,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
       "@/*": ["./
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -4241,8 +4242,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
       "@/*": ["./
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -4270,8 +4271,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
       "@/*": ["./src/*"]
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -4299,8 +4300,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
       "@/*": ["./src/*"]
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -4328,8 +4329,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
       "@/*": ["./src/*"]
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -4357,8 +4358,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
       "@/*": ["./src/*"]
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -4386,8 +4387,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
       "@/*": ["./src/*"]
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -4415,8 +4416,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
       "@/*": ["./src/*"]
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -4444,8 +4445,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
       "@/*": ["./src/*"]
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -4472,11 +4473,11 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
     "paths": {
       "@/*": ["./src/*"]
     }
-  
+
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -4503,11 +4504,11 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
     "paths": {
       "@/*": ["./src/*"]
     }
-  
+
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -4534,11 +4535,11 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
     "paths": {
       "@/*": ["./src/*"]
     }
-  
+
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -4565,11 +4566,11 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
     "paths": {
       "@/*": ["./src/*"]
     }
-  
+
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -4596,11 +4597,11 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
     "paths": {
       "@/*": ["./src/*"]
     }
-  
+
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -4627,11 +4628,11 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
     "paths": {
       "@/*": ["./src/*"]
     }
-  
+
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -4658,11 +4659,11 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
     "paths": {
       "@/*": ["./src/*"]
     }
-  
+
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -4693,8 +4694,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -4725,8 +4726,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -4757,8 +4758,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -4789,8 +4790,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -4821,8 +4822,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -4853,8 +4854,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -4885,8 +4886,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -4917,8 +4918,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "include
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -4949,8 +4950,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "include
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -4981,8 +4982,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "include
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -5013,8 +5014,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "include
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -5045,8 +5046,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "include
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -5077,8 +5078,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "include
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -5109,8 +5110,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "include
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -5141,8 +5142,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "include": ["next
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -5173,8 +5174,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "include": ["next
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -5205,8 +5206,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "include": ["next
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -5237,8 +5238,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "include": ["next
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -5269,8 +5270,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "include": ["next
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -5301,8 +5302,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "include": ["next
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -5333,8 +5334,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "include": ["next
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -5365,8 +5366,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "include": ["next-env.
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -5397,8 +5398,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "include": ["next-env.
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -5429,8 +5430,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "include": ["next-env.
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -5461,8 +5462,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "include": ["next-env.
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -5493,8 +5494,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "include": ["next-env.
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -5525,8 +5526,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "include": ["next-env.
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -5557,8 +5558,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "include": ["next-env.
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -5589,8 +5590,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "include": ["next-env.d.ts", "
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -5621,8 +5622,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "include": ["next-env.d.ts", "
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -5653,8 +5654,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "include": ["next-env.d.ts", "
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -5685,8 +5686,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "include": ["next-env.d.ts", "
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -5717,8 +5718,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "include": ["next-env.d.ts", "
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -5749,8 +5750,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "include": ["next-env.d.ts", "
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -5781,8 +5782,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "include": ["next-env.d.ts", "
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -5813,8 +5814,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "include": ["next-env.d.ts", "**/*.ts",
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -5845,8 +5846,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "include": ["next-env.d.ts", "**/*.ts",
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -5877,8 +5878,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "include": ["next-env.d.ts", "**/*.ts",
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -5909,8 +5910,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "include": ["next-env.d.ts", "**/*.ts",
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -5941,8 +5942,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "include": ["next-env.d.ts", "**/*.ts",
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -5973,8 +5974,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "include": ["next-env.d.ts", "**/*.ts",
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -6005,8 +6006,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "include": ["next-env.d.ts", "**/*.ts",
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -6037,8 +6038,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -6069,8 +6070,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -6101,8 +6102,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -6133,8 +6134,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -6165,8 +6166,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -6197,8 +6198,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -6229,8 +6230,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -6261,8 +6262,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -6293,8 +6294,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -6325,8 +6326,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -6357,8 +6358,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -6389,8 +6390,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -6421,8 +6422,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -6453,8 +6454,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -6485,8 +6486,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -6517,8 +6518,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -6549,8 +6550,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -6581,8 +6582,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -6613,8 +6614,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -6645,8 +6646,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -6677,8 +6678,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -6709,8 +6710,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -6741,8 +6742,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -6773,8 +6774,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -6805,8 +6806,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -6837,8 +6838,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -6869,8 +6870,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -6901,8 +6902,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -6934,8 +6935,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "exclude":
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -6967,8 +6968,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "exclude":
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -7000,8 +7001,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "exclude":
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -7033,8 +7034,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "exclude":
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -7066,8 +7067,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "exclude":
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -7099,8 +7100,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "exclude":
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -7132,8 +7133,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "exclude":
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -7165,8 +7166,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "exclude": ["node_modules
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -7198,8 +7199,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
   "exclude": ["node_modules
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -7231,8 +7232,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "exclude": ["node_modules
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -7264,8 +7265,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
   "exclude": ["node_modules
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -7297,8 +7298,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "exclude": ["node_modules
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -7330,8 +7331,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
   "exclude": ["node_modules
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -7363,8 +7364,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "exclude": ["node_modules
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -7397,8 +7398,8 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
 }
 ```
 
-
 ## License: MIT
+
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
@@ -7431,8 +7432,8 @@ https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e
 }
 ```
 
-
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -7465,8 +7466,8 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
 }
 ```
 
-
 ## License: MIT
+
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
@@ -7499,8 +7500,8 @@ https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde7
 }
 ```
 
-
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -7533,8 +7534,8 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
 }
 ```
 
-
 ## License: unknown
+
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
@@ -7567,8 +7568,8 @@ https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd8
 }
 ```
 
-
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -7601,8 +7602,8 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
 }
 ```
 
-
 ## License: Apache-2.0
+
 https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/docs/guides/tutorials/chatgpt_bot.rst
 
 ```
@@ -7634,6 +7635,7 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
   "exclude": ["node_modules"]
 }
 ```
+
 ```
 
 
@@ -7641,38 +7643,41 @@ https://github.com/edgedb/edgedb/blob/1d2d4a19c45d7f2075f6d2a7cc3f066b22e5c7fc/d
 https://github.com/datarockets/style-guide/blob/28b0428801bb465d2e874ed44b5a4b4e37fb08a2/README.md
 
 ```
+
 ": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+"target": "es5",
+"lib": ["dom", "dom.iterable", "esnext"],
+"allowJs": true,
+"skipLibCheck": true,
+"strict": true,
+"noEmit": true,
+"esModuleInterop": true,
+"module": "esnext",
+"moduleResolution": "bundler",
+"resolveJsonModule": true,
+"isolatedModules": true,
+"jsx": "preserve",
+"incremental": true,
+"plugins": [
+{
+"name": "next"
 }
-```
+],
+"baseUrl": ".",
+"paths": {
+"@/_": ["./src/_"]
+}
+},
+"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+"exclude": ["node_modules"]
+}
+
 ```
 
+```
 
 ## License: MIT
+
 https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/docs/guides/nextjs.md
 
 ```
@@ -7704,6 +7709,7 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
   "exclude": ["node_modules"]
 }
 ```
+
 ```
 
 
@@ -7711,38 +7717,41 @@ https://github.com/pmndrs/zustand/blob/d57072caf5e56b6b9974d4f79a01467063565d67/
 https://github.com/CAFECA-IO/KnowledgeManagement/blob/5dcd8cc0373caea067ad4abde79129ec891df9e2/survey/PreCommit.md
 
 ```
+
 ": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+"target": "es5",
+"lib": ["dom", "dom.iterable", "esnext"],
+"allowJs": true,
+"skipLibCheck": true,
+"strict": true,
+"noEmit": true,
+"esModuleInterop": true,
+"module": "esnext",
+"moduleResolution": "bundler",
+"resolveJsonModule": true,
+"isolatedModules": true,
+"jsx": "preserve",
+"incremental": true,
+"plugins": [
+{
+"name": "next"
 }
-```
+],
+"baseUrl": ".",
+"paths": {
+"@/_": ["./src/_"]
+}
+},
+"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+"exclude": ["node_modules"]
+}
+
 ```
 
+```
 
 ## License: MIT
+
 https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11081f7/site/tsconfig.json.bkup
 
 ```
@@ -7774,6 +7783,7 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
   "exclude": ["node_modules"]
 }
 ```
+
 ```
 
 
@@ -7781,38 +7791,41 @@ https://github.com/paulegradie/Sailfish/blob/11969698097ddc34c638feb20a097e51b11
 https://github.com/EscolaLMS/documentation/blob/a3aa77f520a22db793cb397ff854bfd861737758/docs/src/_blogs/2023-04-12-local-sdk-development.md
 
 ```
+
 ": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "bundler",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "baseUrl": ".",
-    "paths": {
-      "@/*": ["./src/*"]
-    }
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+"target": "es5",
+"lib": ["dom", "dom.iterable", "esnext"],
+"allowJs": true,
+"skipLibCheck": true,
+"strict": true,
+"noEmit": true,
+"esModuleInterop": true,
+"module": "esnext",
+"moduleResolution": "bundler",
+"resolveJsonModule": true,
+"isolatedModules": true,
+"jsx": "preserve",
+"incremental": true,
+"plugins": [
+{
+"name": "next"
 }
-```
+],
+"baseUrl": ".",
+"paths": {
+"@/_": ["./src/_"]
+}
+},
+"include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+"exclude": ["node_modules"]
+}
+
 ```
 
+```
 
 ## License: unknown
+
 https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5eec6d5e250/content/posts/mdx-blog-template.mdx
 
 ```
@@ -7844,5 +7857,7 @@ https://github.com/woongsnote/woongsnote-dev/blob/d5bf2530894542ac5e2b172e5e11d5
   "exclude": ["node_modules"]
 }
 ```
+
 ```
 
+```

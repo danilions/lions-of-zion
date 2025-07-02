@@ -11,6 +11,7 @@ A cutting-edge Next.js application featuring a futuristic design system for moni
 **Primary Visual Style:** Futuristic, bold, and clean cyberpunk aesthetic
 
 **Key Elements:**
+
 - **Colors:** Neon blue (#00AEEF), cyber blue (#0099CC), deep navy (#0A0E1A)
 - **Typography:** Orbitron/Montserrat for headers, Inter for body text
 - **Motif:** Glowing blue lion head symbolizing strength and guardianship
@@ -21,25 +22,25 @@ A cutting-edge Next.js application featuring a futuristic design system for moni
 ```css
 /* Titles */
 .text-title {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-weight: 800;
   text-transform: uppercase;
-  color: #00AEEF;
+  color: #00aeef;
   text-shadow: neon glow effect;
 }
 
 /* Subtitles */
 .text-subtitle {
-  font-family: 'Orbitron', sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-weight: 600;
   text-transform: uppercase;
-  color: #4DC8F0;
+  color: #4dc8f0;
 }
 
 /* Body Text */
 .text-body {
-  font-family: 'Inter', sans-serif;
-  color: #B0B8C5;
+  font-family: "Inter", sans-serif;
+  color: #b0b8c5;
   line-height: 1.7;
 }
 ```
@@ -47,13 +48,13 @@ A cutting-edge Next.js application featuring a futuristic design system for moni
 ### Component Library
 
 #### Buttons
+
 ```tsx
-<button className="cyber-button">
-  ACTIVATE PROTOCOL
-</button>
+<button className="cyber-button">ACTIVATE PROTOCOL</button>
 ```
 
 #### Cards
+
 ```tsx
 <div className="cyber-card">
   <h3 className="text-subtitle">System Status</h3>
@@ -62,6 +63,7 @@ A cutting-edge Next.js application featuring a futuristic design system for moni
 ```
 
 #### Notifications
+
 ```tsx
 <div className="notification info">GUARDIANS ACTIVE</div>
 <div className="notification warning">THREAT DETECTED</div>
@@ -70,16 +72,16 @@ A cutting-edge Next.js application featuring a futuristic design system for moni
 
 ### Color Palette
 
-| Color | Hex | Usage |
-|-------|-----|-------|
-| Neon Blue | `#00AEEF` | Primary brand, titles, highlights |
-| Cyber Blue | `#0099CC` | Secondary accents, hover states |
-| Light Blue | `#4DC8F0` | Subtitles, secondary text |
-| Dark Navy | `#0A0E1A` | Primary background |
-| Deep Black | `#000000` | Gradient end, depth |
-| Cyber Gray | `#1A1F2E` | Card backgrounds |
-| Light Gray | `#B0B8C5` | Body text |
-| Glow Cyan | `#00FFFF` | Special effects, success states |
+| Color      | Hex       | Usage                             |
+| ---------- | --------- | --------------------------------- |
+| Neon Blue  | `#00AEEF` | Primary brand, titles, highlights |
+| Cyber Blue | `#0099CC` | Secondary accents, hover states   |
+| Light Blue | `#4DC8F0` | Subtitles, secondary text         |
+| Dark Navy  | `#0A0E1A` | Primary background                |
+| Deep Black | `#000000` | Gradient end, depth               |
+| Cyber Gray | `#1A1F2E` | Card backgrounds                  |
+| Light Gray | `#B0B8C5` | Body text                         |
+| Glow Cyan  | `#00FFFF` | Special effects, success states   |
 
 ### Animation System
 

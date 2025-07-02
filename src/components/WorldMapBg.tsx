@@ -1,6 +1,6 @@
-'use client';
-import React from 'react';
-import Image from 'next/image';
+"use client";
+import React from "react";
+import Image from "next/image";
 
 export default function WorldMapBg() {
   return (
@@ -12,7 +12,10 @@ export default function WorldMapBg() {
           width={900}
           height={400}
           className="w-full h-full object-contain filter-darken"
-          style={{ filter: 'drop-shadow(0 0 20px #0ca3ff) drop-shadow(0 0 10px #1b2a49)' }}
+          style={{
+            filter:
+              "drop-shadow(0 0 20px #0ca3ff) drop-shadow(0 0 10px #1b2a49)",
+          }}
           priority={true}
         />
       </div>
@@ -36,16 +39,30 @@ export default function WorldMapBg() {
 
       <style jsx>{`
         @keyframes pulse-map {
-          0%, 100% { filter: brightness(0.6) drop-shadow(0 0 20px #0ca3ff) drop-shadow(0 0 10px #1b2a49); }
-          50% { filter: brightness(0.8) drop-shadow(0 0 30px #2fb4ff) drop-shadow(0 0 15px #2a3a66); }
+          0%,
+          100% {
+            filter: brightness(0.6) drop-shadow(0 0 20px #0ca3ff)
+              drop-shadow(0 0 10px #1b2a49);
+          }
+          50% {
+            filter: brightness(0.8) drop-shadow(0 0 30px #2fb4ff)
+              drop-shadow(0 0 15px #2a3a66);
+          }
         }
         .animate-pulse-map {
           animation: pulse-map 6s ease-in-out infinite;
         }
 
         @keyframes lion-breathe {
-          0%, 100% { opacity: 0.8; transform: scale(1) translateY(0); }
-          50% { opacity: 1; transform: scale(1.05) translateY(-3px); }
+          0%,
+          100% {
+            opacity: 0.8;
+            transform: scale(1) translateY(0);
+          }
+          50% {
+            opacity: 1;
+            transform: scale(1.05) translateY(-3px);
+          }
         }
         .animate-lion-breathe {
           animation: lion-breathe 4s ease-in-out infinite;

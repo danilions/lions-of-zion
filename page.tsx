@@ -1,17 +1,17 @@
-'use client';
-import React from 'react';
-import Hero from '@/components/Hero';
-import NetworkMapCanvas from '@/components/NetworkMapCanvas';
-import HeartbeatLine from '@/components/HeartbeatLine';
-import Skyline from '@/components/Skyline';
-import LionOverlay from '@/components/LionOverlay';
+"use client";
+import React from "react";
+import Hero from "@/components/Hero";
+import NetworkMapCanvas from "@/components/NetworkMapCanvas";
+import HeartbeatLine from "@/components/HeartbeatLine";
+import Skyline from "@/components/Skyline";
+import LionOverlay from "@/components/LionOverlay";
 
 export default function Home() {
   return (
     <main className="relative min-h-screen bg-primary-gradient overflow-hidden">
       {/* Lion Overlay - Top layer with new styling */}
       <LionOverlay />
-      
+
       {/* Network Map Canvas - Background animation layer */}
       <div className="absolute inset-0 z-0">
         <NetworkMapCanvas />
@@ -19,7 +19,6 @@ export default function Home() {
 
       {/* Main Content Container */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-screen px-4">
-        
         {/* Hero Section */}
         <section className="text-center max-w-6xl mx-auto pt-16 pb-12">
           <Hero />
@@ -33,7 +32,9 @@ export default function Home() {
         {/* System Monitor - Heartbeat */}
         <section className="w-full max-w-4xl mb-16">
           <div className="cyber-card">
-            <h3 className="text-subtitle text-lg mb-4 text-center">SYSTEM PULSE MONITOR</h3>
+            <h3 className="text-subtitle text-lg mb-4 text-center">
+              SYSTEM PULSE MONITOR
+            </h3>
             <div className="h-16 w-full">
               <HeartbeatLine />
             </div>
@@ -51,7 +52,6 @@ export default function Home() {
             </div>
           </div>
         </section>
-
       </div>
 
       {/* Background Skyline - Subtle */}

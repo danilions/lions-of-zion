@@ -4,7 +4,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Lions of Zion - Global Narrative Pulse",
-  description: "Defend Truth. Expose Lies. Monitor the global pulse of information.",
+  description:
+    "Defend Truth. Expose Lies. Monitor the global pulse of information.",
   keywords: ["truth", "information", "narrative", "lions", "zion", "pulse"],
   authors: [{ name: "Lions of Zion" }],
   icons: {
