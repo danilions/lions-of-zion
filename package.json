@@ -7,6 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "test": "echo \"No tests specified\" && exit 0",
     "check:deps": "npm ls --depth=0",
     "check:build-deps": "node -e \"try{require('tailwindcss'); console.log('✓ Tailwind CSS available')}catch{console.log('✗ Tailwind CSS missing')}\" && node -e \"try{require('postcss'); console.log('✓ PostCSS available')}catch{console.log('✗ PostCSS missing')}\""
   },
