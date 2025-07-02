@@ -9,112 +9,103 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        primary: ["Orbitron", "Montserrat", "system-ui", "sans-serif"],
-        body: ["Inter", "system-ui", "sans-serif"],
+        sans: ["Inter", "system-ui", "sans-serif"],
+        display: ["Space Grotesk", "system-ui", "sans-serif"],
+        mono: ["JetBrains Mono", "Menlo", "monospace"],
       },
       colors: {
-        // LIONSOFZION Brand Colors
-        "neon-blue": "#00AEEF",
-        "cyber-blue": "#0099CC",
-        "light-blue": "#4DC8F0",
-        "dark-navy": "#0A0E1A",
-        "deep-black": "#000000",
-        "cyber-gray": "#1A1F2E",
-        "light-gray": "#B0B8C5",
-        "glow-cyan": "#00FFFF",
-        "warning-orange": "#FF8C00",
-
-        // Gradient stops
-        "gradient-start": "#0A0E1A",
-        "gradient-end": "#000000",
-
-        // Interactive states
-        "button-primary": "#00AEEF",
-        "button-hover": "#0099CC",
-        "button-active": "#007AA3",
+        // Neutral palette
+        neutral: {
+          50: "#fafafa",
+          100: "#f5f5f5",
+          200: "#e5e5e5",
+          300: "#d4d4d4",
+          400: "#a3a3a3",
+          500: "#737373",
+          600: "#525252",
+          700: "#404040",
+          800: "#262626",
+          900: "#171717",
+          950: "#0a0a0a",
+        },
+        // Primary accent colors
+        primary: {
+          50: "#eff6ff",
+          100: "#dbeafe",
+          200: "#bfdbfe",
+          300: "#93c5fd",
+          400: "#60a5fa",
+          500: "#3b82f6",
+          600: "#2563eb",
+          700: "#1d4ed8",
+          800: "#1e40af",
+          900: "#1e3a8a",
+          950: "#172554",
+        },
+        // Secondary accent colors
+        secondary: {
+          50: "#f0fdf4",
+          100: "#dcfce7",
+          200: "#bbf7d0",
+          300: "#86efac",
+          400: "#4ade80",
+          500: "#22c55e",
+          600: "#16a34a",
+          700: "#15803d",
+          800: "#166534",
+          900: "#14532d",
+          950: "#052e16",
+        },
+        // Status colors
+        success: "#22c55e",
+        warning: "#f59e0b",
+        error: "#ef4444",
+        info: "#3b82f6",
       },
-      backgroundImage: {
-        "primary-gradient": "linear-gradient(135deg, #0A0E1A 0%, #000000 100%)",
-        "button-gradient": "linear-gradient(135deg, #00AEEF 0%, #00FFFF 100%)",
-        "card-gradient":
-          "linear-gradient(135deg, rgba(26, 31, 46, 0.8) 0%, rgba(10, 14, 26, 0.9) 100%)",
+      spacing: {
+        18: "4.5rem",
+        88: "22rem",
+        128: "32rem",
+        144: "36rem",
+      },
+      borderRadius: {
+        "4xl": "2rem",
       },
       boxShadow: {
-        neon: "0 0 10px #00AEEF, 0 0 20px #00AEEF, 0 0 30px #00AEEF",
-        "neon-lg": "0 0 20px #00AEEF, 0 0 40px #00AEEF, 0 0 60px #00AEEF",
-        cyber: "0 4px 20px rgba(0, 174, 239, 0.3)",
-        card: "0 8px 32px rgba(0, 0, 0, 0.5)",
-      },
-      textShadow: {
-        neon: "0 0 10px #00AEEF, 0 0 20px #00AEEF",
-        glow: "0 0 5px rgba(0, 174, 239, 0.8)",
+        "soft": "0 2px 15px -3px rgba(0, 0, 0, 0.07), 0 10px 20px -2px rgba(0, 0, 0, 0.04)",
+        "medium": "0 4px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 20px -5px rgba(0, 0, 0, 0.04)",
+        "hard": "0 10px 40px -10px rgba(0, 0, 0, 0.15)",
       },
       animation: {
-        "pulse-neon": "pulse-neon 2s ease-in-out infinite alternate",
-        glow: "glow 2s ease-in-out infinite alternate",
-        float: "float 3s ease-in-out infinite",
-        "lion-breathe": "lion-breathe 4s ease-in-out infinite",
-        scanline: "scanline 4s linear infinite",
+        "fade-in": "fadeIn 0.5s ease-in-out",
+        "slide-up": "slideUp 0.5s ease-out",
+        "slide-down": "slideDown 0.5s ease-out",
+        "scale-in": "scaleIn 0.3s ease-out",
+        "bounce-subtle": "bounceSubtle 2s infinite",
       },
       keyframes: {
-        "pulse-neon": {
-          "0%": {
-            textShadow: "0 0 5px #00AEEF, 0 0 10px #00AEEF, 0 0 15px #00AEEF",
-            boxShadow: "0 0 5px #00AEEF, 0 0 10px #00AEEF",
-          },
-          "100%": {
-            textShadow: "0 0 10px #00AEEF, 0 0 20px #00AEEF, 0 0 30px #00AEEF",
-            boxShadow: "0 0 10px #00AEEF, 0 0 20px #00AEEF",
-          },
-        },
-        glow: {
-          "0%": { opacity: "0.8" },
+        fadeIn: {
+          "0%": { opacity: "0" },
           "100%": { opacity: "1" },
         },
-        float: {
-          "0%, 100%": { transform: "translateY(0px)" },
-          "50%": { transform: "translateY(-10px)" },
+        slideUp: {
+          "0%": { transform: "translateY(10px)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
         },
-        "lion-breathe": {
-          "0%, 100%": {
-            opacity: "0.8",
-            transform: "scale(1) translateY(0)",
-          },
-          "50%": {
-            opacity: "1",
-            transform: "scale(1.05) translateY(-3px)",
-          },
+        slideDown: {
+          "0%": { transform: "translateY(-10px)", opacity: "0" },
+          "100%": { transform: "translateY(0)", opacity: "1" },
         },
-        scanline: {
-          "0%": {
-            transform: "translateY(0)",
-            opacity: "0",
-          },
-          "5%": { opacity: "0.5" },
-          "95%": { opacity: "0.5" },
-          "100%": {
-            transform: "translateY(100vh)",
-            opacity: "0",
-          },
+        scaleIn: {
+          "0%": { transform: "scale(0.95)", opacity: "0" },
+          "100%": { transform: "scale(1)", opacity: "1" },
+        },
+        bounceSubtle: {
+          "0%, 100%": { transform: "translateY(0)" },
+          "50%": { transform: "translateY(-5px)" },
         },
       },
     },
   },
-  plugins: [
-    // Custom plugin for text shadows
-    function ({ addUtilities }: any) {
-      const newUtilities = {
-        ".text-shadow-neon": {
-          textShadow: "0 0 10px #00AEEF, 0 0 20px #00AEEF",
-        },
-        ".text-shadow-glow": {
-          textShadow: "0 0 5px rgba(0, 174, 239, 0.8)",
-        },
-        ".text-shadow-none": {
-          textShadow: "none",
-        },
-      };
-      addUtilities(newUtilities);
-    },
-  ],
+  plugins: [],
 } satisfies Config;

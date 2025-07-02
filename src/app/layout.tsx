@@ -3,14 +3,13 @@ import React from "react";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Lions of Zion - Global Narrative Pulse",
+  title: "Lions of Zion - Global Information Intelligence",
   description:
-    "Defend Truth. Expose Lies. Monitor the global pulse of information.",
-  keywords: ["truth", "information", "narrative", "lions", "zion", "pulse"],
+    "Defend Truth. Expose Lies. Monitor the global pulse of information with cutting-edge technology and unwavering commitment to transparency.",
+  keywords: ["truth", "information", "intelligence", "monitoring", "transparency", "lions", "zion"],
   authors: [{ name: "Lions of Zion" }],
   icons: {
-    icon: "/assets/images/logo.png.svg",
-    apple: "/assets/images/logo.png.svg",
+    icon: "/favicon.ico",
   },
 };
 
@@ -26,7 +25,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className="antialiased">{children}</body>
+      <body className="antialiased">
+        {children}
+      </body>
     </html>
   );
 }
