@@ -32,7 +32,7 @@ export default function Home() {
       />
       
       {/* Header */}
-      <header className="relative z-20 bg-white/95 backdrop-blur-sm border-b border-gray-200">
+      <header className="relative z-20 bg-white border-b border-gray-200">
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
@@ -69,7 +69,7 @@ export default function Home() {
         <section className="min-h-screen flex items-center justify-center px-4 py-20">
           <div className="max-w-4xl mx-auto text-center space-y-8">
             <div className="inline-flex items-center space-x-2 bg-secondary-100 px-4 py-2 rounded-full">
-              <div className="w-2 h-2 bg-secondary-500 rounded-full animate-pulse"></div>
+              <div className="w-2 h-2 bg-secondary-500 rounded-full"></div>
               <span className="text-secondary-700 font-medium">Live Monitoring Active</span>
             </div>
             
@@ -100,7 +100,7 @@ export default function Home() {
         </section>
 
         {/* Live Telegram Feed Section */}
-        <section id="live-feed" className="py-20 bg-white/90 backdrop-blur-sm">
+        <section id="live-feed" className="py-20 bg-white">
           <div className="container mx-auto px-4">
             <div className="max-w-4xl mx-auto">
               <h2 className="text-3xl sm:text-4xl font-display font-bold text-neutral-900 text-center mb-12">
