@@ -2,7 +2,7 @@ import React from 'react';
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="border-t border-neutral-200 bg-neutral-50">
+    <footer className="border-t border-gray-200 bg-neutral-50">
       <div className="container py-12">
         <div className="grid grid-cols-1 gap-8 md:grid-cols-4">
           <div className="col-span-1 md:col-span-2">
@@ -64,7 +64,7 @@ export const Footer: React.FC = () => {
           </div>
         </div>
         
-        <div className="mt-12 border-t border-neutral-200 pt-8">
+        <div className="mt-12 border-t border-gray-200 pt-8">
           <div className="flex flex-col md:flex-row md:items-center md:justify-between">
             <p className="text-sm text-neutral-500">
               © 2024 Lions of Zion. All rights reserved.

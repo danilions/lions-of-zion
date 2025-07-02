@@ -4,7 +4,7 @@ import { Button } from '../ui/Button';
 
 export const Header: React.FC = () => {
   return (
-    <header className="sticky top-0 z-50 w-full border-b border-neutral-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
+    <header className="sticky top-0 z-50 w-full border-b border-gray-200 bg-white/95 backdrop-blur supports-[backdrop-filter]:bg-white/60">
       <div className="container flex h-16 items-center justify-between">
         <div className="flex items-center space-x-4">
           <div className="font-display text-xl font-bold text-neutral-900">

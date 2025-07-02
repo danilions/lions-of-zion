@@ -32,7 +32,7 @@ export default function Home() {
       />
       
       {/* Header */}
-      <header className="relative z-20 bg-white/95 backdrop-blur-sm border-b border-neutral-200">
+      <header className="relative z-20 bg-white/95 backdrop-blur-sm border-b border-gray-200">
         <div className="container mx-auto px-4 py-4">
           <nav className="flex items-center justify-between">
             <div className="flex items-center space-x-4">
@@ -107,7 +107,7 @@ export default function Home() {
                 Live Reports from Telegram
               </h2>
               
-              <div className="bg-white rounded-2xl shadow-soft border border-neutral-200 p-8">
+              <div className="bg-white rounded-2xl shadow-soft border border-gray-200 p-8">
                 <div className="aspect-video bg-neutral-50 rounded-lg border-2 border-dashed border-neutral-300 flex items-center justify-center">
                   <div className="text-center space-y-4">
                     <div className="w-16 h-16 bg-primary-100 rounded-full flex items-center justify-center mx-auto">
@@ -139,7 +139,7 @@ export default function Home() {
                 </p>
               </div>
               
-              <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-soft border border-neutral-200 p-8 space-y-6">
+              <form onSubmit={handleSubmit} className="bg-white rounded-2xl shadow-soft border border-gray-200 p-8 space-y-6">
                 <div>
                   <label htmlFor="name" className="block text-sm font-medium text-neutral-700 mb-2">
                     Full Name

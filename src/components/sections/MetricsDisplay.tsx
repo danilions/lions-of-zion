@@ -19,7 +19,7 @@ export const MetricsDisplay: React.FC<MetricsDisplayProps> = ({ label, value, tr
       case 'warning':
         return 'border-yellow-200 bg-yellow-50/80 text-yellow-900';
       default:
-        return 'border-neutral-200 bg-white/80 text-neutral-900';
+        return 'border-gray-200 bg-white/80 text-neutral-900';
     }
   };
 
