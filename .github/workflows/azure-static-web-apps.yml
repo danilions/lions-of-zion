@@ -49,5 +49,5 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"               # Root of the project
-          api_location: ""               # No API in this project
-          output_location: ".next"       # Next.js build folder
+          api_location: ""                # No API in this project
+          output_location: ".next"        # Next.js build folder
