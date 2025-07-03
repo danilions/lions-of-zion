@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 7, "column": 0}, "map": {"version":3,"sources":["file:///Users/dnylhnwkyyb/lions-of-zion/src/app/map/layout.tsx"],"sourcesContent":["export default function MapLayout({ children }: { children: React.ReactNode }) {\n  return (\n    <div className=\"map-layout\" style={{ margin: 0, padding: 0, height: '100vh', width: '100vw' }}>\n      {children}\n    </div>\n  );\n}\n"],"names":[],"mappings":";;;;;AAAe,SAAS,UAAU,EAAE,QAAQ,EAAiC;IAC3E,qBACE,+YAAC;QAAI,WAAU;QAAa,OAAO;YAAE,QAAQ;YAAG,SAAS;YAAG,QAAQ;YAAS,OAAO;QAAQ;kBACzF;;;;;;AAGP","debugId":null}}]
+}

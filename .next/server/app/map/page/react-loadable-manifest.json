@@ -1,0 +1,10 @@
+{
+  "[project]/src/components/WorldNetworkMap.tsx [app-client] (ecmascript, next/dynamic entry)": {
+    "id": "[project]/src/components/WorldNetworkMap.tsx [app-client] (ecmascript, next/dynamic entry)",
+    "files": [
+      "static/chunks/node_modules__pnpm_b0fd7caa._.js",
+      "static/chunks/src_components_WorldNetworkMap_tsx_cc0022a6._.js",
+      "static/chunks/src_components_WorldNetworkMap_tsx_270b8b14._.js"
+    ]
+  }
+}
