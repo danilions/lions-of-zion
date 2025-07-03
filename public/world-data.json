@@ -1,0 +1,33 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Russia",
+        "ISO_A3": "RUS",
+        "CONTINENT": "Europe"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [[[[
+          37.6173, 55.7558
+        ]]]]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "NAME": "Canada",
+        "ISO_A3": "CAN",
+        "CONTINENT": "North America"
+      },
+      "geometry": {
+        "type": "MultiPolygon",
+        "coordinates": [[[[
+          -106.3468, 56.1304
+        ]]]]
+      }
+    }
+  ]
+}

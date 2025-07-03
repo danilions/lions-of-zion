@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ui/Button';
 import { Badge } from '../ui/Badge';
-import { WorldMap } from './WorldMap';
+import WorldNetworkMap from '../WorldNetworkMap';
 import { DigitalLion } from './DigitalLion';
 import { MetricsDisplay } from './MetricsDisplay';
 
@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => {
       
       {/* Animated World Map Background */}
       <div className="absolute inset-0 opacity-10">
-        <WorldMap />
+        <WorldNetworkMap />
       </div>
       
       {/* Main Content */}

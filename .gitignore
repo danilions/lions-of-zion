@@ -49,3 +49,6 @@ duplicates.txt
 AzuriteConfig
 __azurite_db_table*.json
 .env.local
+
+*storybook.log
+storybook-static

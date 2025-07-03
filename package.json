@@ -9,26 +9,51 @@
     "lint": "next lint",
     "test": "echo \"No tests specified\" && exit 0",
     "check:deps": "npm ls --depth=0",
-    "check:build-deps": "node -e \"try{require('tailwindcss'); console.log('✓ Tailwind CSS available')}catch{console.log('✗ Tailwind CSS missing')}\" && node -e \"try{require('postcss'); console.log('✓ PostCSS available')}catch{console.log('✗ PostCSS missing')}\""
+    "check:build-deps": "node -e \"try{require('tailwindcss'); console.log('✓ Tailwind CSS available')}catch{console.log('✗ Tailwind CSS missing')}\" && node -e \"try{require('postcss'); console.log('✓ PostCSS available')}catch{console.log('✗ PostCSS missing')}\"",
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build",
+    "build:ignore-errors": "NEXT_IGNORE_ESLINT=1 next build"
   },
   "dependencies": {
+    "@types/topojson-specification": "^1.0.5",
     "autoprefixer": "^10.4.21",
     "clsx": "^2.1.1",
+    "d3": "^7.9.0",
     "next": "15.3.4",
     "postcss": "^8.5.6",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
+    "react-simple-maps": "^3.0.0",
     "tailwind-merge": "^3.3.1",
-    "tailwindcss": "^4.1.11"
+    "tailwindcss": "^4.1.11",
+    "topojson-client": "^3.1.0"
   },
   "devDependencies": {
+    "@chromatic-com/storybook": "^4.0.1",
     "@eslint/eslintrc": "^3",
+    "@storybook/addon-a11y": "^9.0.15",
+    "@storybook/addon-docs": "^9.0.15",
+    "@storybook/addon-onboarding": "^9.0.15",
+    "@storybook/addon-vitest": "^9.0.15",
+    "@storybook/nextjs-vite": "^9.0.15",
     "@tailwindcss/postcss": "^4.1.11",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@types/d3": "^7.4.3",
+    "@types/jest": "^30.0.0",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "@types/topojson-client": "^3.1.5",
+    "@vitest/browser": "^3.2.4",
+    "@vitest/coverage-v8": "^3.2.4",
     "eslint": "^9",
     "eslint-config-next": "15.3.4",
-    "typescript": "^5"
+    "eslint-plugin-storybook": "^9.0.15",
+    "playwright": "^1.53.2",
+    "storybook": "^9.0.15",
+    "typescript": "^5",
+    "vite-plugin-svgr": "^4.3.0",
+    "vitest": "^3.2.4"
   }
 }
