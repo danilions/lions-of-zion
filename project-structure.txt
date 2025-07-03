@@ -1,61 +1,88 @@
 .
-├── __blobstorage__
-├── __queuestorage__
-├── components
-│   ├── __stories__
-│   │   └── WorldNetworkMap.stories.tsx
-│   └── WorldNetworkMap.tsx
-├── lib
+├── AzuriteConfig
+├── DESIGN_SYSTEM.md
+├── eslint.config.mjs
+├── jest.config.js
+├── jest.setup.js
+├── jest.setup.ts
+├── next-env.d.ts
+├── next.config.ts
+├── package-lock.json
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.js
+├── project-structure.txt
 ├── public
 │   ├── assets
 │   │   ├── backgrounds
 │   │   ├── fonts
 │   │   ├── icons
 │   │   └── images
+│   │       └── logo.png.svg
 │   ├── backgrounds
 │   │   └── hero-background.svg
 │   ├── file.svg
 │   ├── globe.svg
 │   ├── next.svg
 │   ├── vercel.svg
-│   └── window.svg
-├── scripts
+│   ├── window.svg
+│   └── world-data.json
+├── README.md
+├── scan_project.py
 ├── src
 │   ├── app
+│   │   ├── # Code Citations.md
 │   │   ├── about
+│   │   │   └── page.tsx
 │   │   ├── api
 │   │   ├── assets
 │   │   ├── contact
-│   │   ├── pages
-│   │   ├── services
-│   │   ├── showcase
-│   │   ├── styles
-│   │   ├── # Code Citations.md
+│   │   │   └── page.tsx
 │   │   ├── favicon.ico
 │   │   ├── globals.css
 │   │   ├── layout.tsx
-│   │   └── page.tsx
+│   │   ├── page.tsx
+│   │   ├── pages
+│   │   ├── services
+│   │   │   └── page.tsx
+│   │   ├── showcase
+│   │   │   └── page.tsx
+│   │   └── styles
 │   ├── components
 │   │   ├── __tests__
+│   │   │   └── Hero.test.tsx
 │   │   ├── analytics
 │   │   ├── animation
+│   │   │   ├── HeartbeatLine.tsx
+│   │   │   └── LionOverlay.tsx
 │   │   ├── background
+│   │   │   └── Skyline.tsx
 │   │   ├── charts
 │   │   ├── forms
+│   │   ├── Hero.tsx
 │   │   ├── layout
+│   │   │   ├── Footer.tsx
+│   │   │   └── Header.tsx
 │   │   ├── modals
 │   │   ├── navigation
 │   │   ├── sections
-│   │   ├── ui
-│   │   ├── widgets
-│   │   ├── HeartbeatLine.tsx
-│   │   ├── Hero.tsx
-│   │   ├── LionOverlay.tsx
-│   │   ├── NetworkMapCanvas.tsx
-│   │   ├── Skyline.tsx
+│   │   │   ├── ContactSection.tsx
+│   │   │   ├── DigitalLion.tsx
+│   │   │   ├── FeaturesSection.tsx
+│   │   │   ├── HeroSection.tsx
+│   │   │   ├── MetricsDisplay.tsx
+│   │   │   └── TrustIndicators.tsx
 │   │   ├── SplashScreen.tsx
-│   │   ├── UnifiedNetworkCanvas.tsx
-│   │   └── WorldMapBg.tsx
+│   │   ├── ui
+│   │   │   ├── Alert.tsx
+│   │   │   ├── Badge.tsx
+│   │   │   ├── Button.tsx
+│   │   │   ├── Card.tsx
+│   │   │   ├── Hero.tsx
+│   │   │   ├── index.ts
+│   │   │   └── Input.tsx
+│   │   ├── widgets
+│   │   └── WorldNetworkMap.tsx
 │   ├── contexts
 │   ├── hooks
 │   ├── lib
@@ -63,6 +90,22 @@
 │   ├── store
 │   ├── stories
 │   │   ├── assets
+│   │   │   ├── accessibility.png
+│   │   │   ├── accessibility.svg
+│   │   │   ├── addon-library.png
+│   │   │   ├── assets.png
+│   │   │   ├── avif-test-image.avif
+│   │   │   ├── context.png
+│   │   │   ├── discord.svg
+│   │   │   ├── docs.png
+│   │   │   ├── figma-plugin.png
+│   │   │   ├── github.svg
+│   │   │   ├── share.png
+│   │   │   ├── styling.png
+│   │   │   ├── testing.png
+│   │   │   ├── theming.png
+│   │   │   ├── tutorials.svg
+│   │   │   └── youtube.svg
 │   │   ├── button.css
 │   │   ├── Button.stories.ts
 │   │   ├── Button.tsx
@@ -73,40 +116,16 @@
 │   │   ├── page.css
 │   │   ├── Page.stories.ts
 │   │   └── Page.tsx
-│   └── styles
+│   ├── styles
+│   └── types
+│       ├── paypal.d.ts
+│       └── react-simple-maps.d.ts
 ├── styles
 │   └── globals.css
-├── tests
-│   ├── components
-│   ├── e2e
-│   └── integration
-├── __azurite_db_blob__.json
-├── __azurite_db_blob_extent__.json
-├── __azurite_db_queue__.json
-├── __azurite_db_queue_extent__.json
-├── __azurite_db_table__.json
-├── AzuriteConfig
-├── DESIGN_SYSTEM.md
-├── duplicates.txt
-├── eslint.config.mjs
-├── jest.config.js
-├── jest.config.js.bak
-├── jest.setup.js
-├── jest.setup.ts
-├── next-env.d.ts
-├── next.config.ts
-├── package-lock.json
-├── package.json
-├── page.tsx
-├── pnpm-lock.yaml
-├── postcss.config.js
-├── postcss.config.mjs
-├── project-structure.txt
-├── README.md
-├── tailwind.config.ts
+├── tailwind.config.js
 ├── tsconfig.json
 ├── tsconfig.tsbuildinfo
 ├── vitest.config.ts
 └── vitest.shims.d.ts
 
-49 directories, 61 files
+40 directories, 89 files

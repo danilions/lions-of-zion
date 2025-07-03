@@ -38,7 +38,7 @@ export default function ContactPage() {
     <div className="relative min-h-screen bg-black text-white">
       {/* Background Map */}
       <div className="absolute inset-0 z-0">
-        <WorldNetworkMap />
+        <WorldNetworkMap nodes={[]} connections={[]} />
       </div>
 
       {/* Content Layer */}

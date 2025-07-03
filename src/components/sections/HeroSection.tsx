@@ -13,7 +13,7 @@ export const HeroSection: React.FC = () => {
       
       {/* Animated World Map Background */}
       <div className="absolute inset-0 opacity-10">
-        <WorldNetworkMap />
+        <WorldNetworkMap nodes={[]} connections={[]} />
       </div>
       
       {/* Main Content */}

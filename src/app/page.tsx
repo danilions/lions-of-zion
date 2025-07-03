@@ -30,7 +30,7 @@ export default function Home() {
     <div className="fixed inset-0 h-screen w-screen overflow-hidden bg-black text-white">
       {/* Map layer - full viewport coverage */}
       <div className="absolute inset-0 z-0">
-        <WorldNetworkMap />
+        <WorldNetworkMap nodes={[]} connections={[]} />
       </div>
 
       {/* Top-left logo - always visible */}

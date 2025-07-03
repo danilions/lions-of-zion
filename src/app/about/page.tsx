@@ -28,8 +28,8 @@ export default function AboutPage() {
   return (
     <div className="relative min-h-screen bg-black text-white">
       {/* Background Map */}
-      <div className="absolute inset-0 z-0">
-        <WorldNetworkMap />
+      <div className="absolute inset-0 z-0 w-full h-full">
+        <WorldNetworkMap nodes={[]} connections={[]} />
       </div>
 
       {/* Content Layer */}
