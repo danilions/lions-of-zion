@@ -1,19 +1,16 @@
-import WorldNetworkMap from '../../components/WorldNetworkMap';
+"use client";
+
+import dynamic from 'next/dynamic';
+
+const WorldNetworkMap = dynamic(() => import('@/components/WorldNetworkMap'), {
+  ssr: false,
+  loading: () => <div>Loading map...</div>
+});
 
 export default function MapPage() {
-  // If there's existing data fetching code, leave it intact
-  // Otherwise add dummy props
-  
   return (
-    <div className="map-container">
-      <WorldNetworkMap 
-        nodes={[]} 
-        connections={[]}
-        width={1200}
-        height={600}
-      />
-      
-      {/* ...existing code... */}
+    <div style={{ width: '100vw', height: '100vh' }}>
+      <WorldNetworkMap key="world-map" />
     </div>
   );
 }

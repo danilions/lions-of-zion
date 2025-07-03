@@ -1,15 +1,18 @@
-import type { NextConfig } from "next";
+import { type NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  reactStrictMode: true,
   images: {
-    domains: ["www.pngall.com"], // Add domain for external image source
+    domains: ["localhost"],
   },
-  eslint: {
-    // Warning: This allows production builds to successfully complete even if
-    // your project has ESLint errors.
-    ignoreDuringBuilds: true,
+  async redirects() {
+    return [];
   },
 };
 
 export default nextConfig;
+
+/** Allow cross-origin for LAN preview (Turbopack dev mode) */
+export const config = {
+  allowedDevOrigins: ["http://10.100.102.7:3000"],
+};

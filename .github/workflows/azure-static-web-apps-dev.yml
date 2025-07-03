@@ -50,4 +50,4 @@ jobs:
           app_location: "/"
           api_location: ""
           output_location: ".next"
-          environment: "staging"
+          deployment_environment: "staging"
