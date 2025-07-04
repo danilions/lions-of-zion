@@ -25,7 +25,9 @@ jobs:
             branch: main
           - env: staging
             branch: dev
-    if: github.ref == 'refs/heads/' + matrix.branch
+    if: |
+      (matrix.branch == 'main' && github.ref == 'refs/heads/main') ||
+      (matrix.branch == 'dev' && github.ref == 'refs/heads/dev')
     name: Build and Deploy \${{ matrix.env }} Job
     steps:
       - name: Checkout repo
