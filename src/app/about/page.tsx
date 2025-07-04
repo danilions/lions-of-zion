@@ -2,7 +2,7 @@
 
 import React, { useEffect, useRef } from "react";
 import Link from "next/link";
-import WorldNetworkMap from "@/components/WorldNetworkMap";
+import WorldNetworkMap from "../components/WorldNetworkMap";
 
 /**
  * About page component that displays the WorldNetworkMap as a background
@@ -28,7 +28,7 @@ export default function AboutPage() {
     <div className="relative min-h-screen bg-black text-white">
       {/* Background Map */}
       <div className="absolute inset-0 z-0 w-full h-full">
-        <WorldNetworkMap nodes={[]} connections={[]} />
+        <WorldNetworkMap />
       </div>
 
       {/* Content Layer */}

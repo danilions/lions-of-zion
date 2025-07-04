@@ -2,7 +2,7 @@
 
 import dynamic from 'next/dynamic';
 
-const WorldNetworkMap = dynamic(() => import('@/components/WorldNetworkMap'), {
+const WorldNetworkMap = dynamic(() => import('../components/WorldNetworkMap'), {
   ssr: false,
   loading: () => <div>Loading map...</div>
 });

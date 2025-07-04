@@ -1,0 +1,1 @@
+self.__REACT_LOADABLE_MANIFEST="{\"app/map/page.tsx -> ../components/WorldNetworkMap\":{\"id\":\"app/map/page.tsx -> ../components/WorldNetworkMap\",\"files\":[\"static/chunks/_app-pages-browser_src_app_components_WorldNetworkMap_tsx.js\"]}}"

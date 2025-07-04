@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useState } from "react";
-import WorldNetworkMap from "@/components/WorldNetworkMap";
+import WorldNetworkMap from "../components/WorldNetworkMap";
 
 export default function ContactPage() {
   const [formData, setFormData] = useState({
@@ -38,7 +38,7 @@ export default function ContactPage() {
     <div className="relative min-h-screen bg-black text-white">
       {/* Background Map */}
       <div className="absolute inset-0 z-0">
-        <WorldNetworkMap nodes={[]} connections={[]} />
+        <WorldNetworkMap />
       </div>
 
       {/* Content Layer */}

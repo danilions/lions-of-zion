@@ -1,167 +1,162 @@
-/Users/dnylhnwkyyb/lions-of-zion
-├── AzuriteConfig
-├── DESIGN_SYSTEM.md
-├── README.md
-├── app
-│   ├── about
-│   │   └── page.tsx
-│   └── map
-│       └── page.tsx
-├── components
-│   └── WorldNetworkMap.tsx
-├── design-system
-│   ├── index.html
-│   ├── package.json
-│   ├── pnpm-lock.yaml
-│   ├── src
-│   │   ├── App.tsx
-│   │   ├── components
-│   │   │   ├── InteractiveWorldMap.tsx
-│   │   │   ├── WorldNetworkMap.tsx
-│   │   │   ├── WorldNetworkMap_backup.tsx
-│   │   │   ├── WorldNetworkMap_fixed.tsx
-│   │   │   ├── simplified.geo.json
-│   │   │   ├── src
-│   │   │   │   └── components
-│   │   │   │       └── worldMapData.ts
-│   │   │   ├── world.geo.json
-│   │   │   └── worldMapData.ts
-│   │   ├── index.css
-│   │   └── main.tsx
-│   ├── tailwind.config.js
-│   ├── tsconfig.json
-│   ├── vite.config.ts
-│   └── world.geo.json
-├── eslint.config.mjs
-├── jest.config.js
-├── jest.setup.js
-├── jest.setup.ts
-├── lions-of-zion-tree.txt
-├── next-env.d.ts
-├── next.config.ts
-├── package-lock.json
-├── package.json
-├── pnpm-lock.yaml
-├── postcss.config.js
-├── project-structure.txt
-├── public
-│   ├── assets
-│   │   ├── backgrounds
-│   │   ├── fonts
-│   │   ├── icons
-│   │   └── images
-│   │       └── logo.png.svg
-│   ├── backgrounds
-│   │   └── hero-background.svg
-│   ├── file.svg
-│   ├── globe.svg
-│   ├── next.svg
-│   ├── vercel.svg
-│   ├── window.svg
-│   ├── world-data.json
-│   └── world.geo.json
-├── scan_project.py
-├── src
-│   ├── app
-│   │   ├── # Code Citations.md
-│   │   ├── about
-│   │   │   └── page.tsx
-│   │   ├── api
-│   │   ├── assets
-│   │   ├── contact
-│   │   │   └── page.tsx
-│   │   ├── favicon.ico
-│   │   ├── globals.css
-│   │   ├── layout.tsx
-│   │   ├── map
-│   │   │   └── page.tsx
-│   │   ├── page.tsx
-│   │   ├── pages
-│   │   ├── services
-│   │   │   └── page.tsx
-│   │   ├── showcase
-│   │   │   └── page.tsx
-│   │   └── styles
-│   ├── components
-│   │   ├── Dashboard.tsx
-│   │   ├── Hero.tsx
-│   │   ├── NetworkDisplay.tsx
-│   │   ├── SplashScreen.tsx
-│   │   ├── WorldNetworkMap.tsx
-│   │   ├── __tests__
-│   │   │   └── Hero.test.tsx
-│   │   ├── analytics
-│   │   ├── animation
-│   │   │   ├── HeartbeatLine.tsx
-│   │   │   └── LionOverlay.tsx
-│   │   ├── background
-│   │   │   └── Skyline.tsx
-│   │   ├── charts
-│   │   ├── forms
-│   │   ├── layout
-│   │   │   ├── Footer.tsx
-│   │   │   └── Header.tsx
-│   │   ├── modals
-│   │   ├── navigation
-│   │   ├── sections
-│   │   │   ├── ContactSection.tsx
-│   │   │   ├── DigitalLion.tsx
-│   │   │   ├── FeaturesSection.tsx
-│   │   │   ├── HeroSection.tsx
-│   │   │   ├── MetricsDisplay.tsx
-│   │   │   └── TrustIndicators.tsx
-│   │   ├── ui
-│   │   │   ├── Alert.tsx
-│   │   │   ├── Badge.tsx
-│   │   │   ├── Button.tsx
-│   │   │   ├── Card.tsx
-│   │   │   ├── Hero.tsx
-│   │   │   ├── Input.tsx
-│   │   │   └── index.ts
-│   │   └── widgets
-│   ├── contexts
-│   ├── hooks
-│   ├── lib
-│   │   └── utils.ts
-│   ├── store
-│   ├── stories
-│   │   ├── Button.stories.ts
-│   │   ├── Button.tsx
-│   │   ├── Configure.mdx
-│   │   ├── Header.stories.ts
-│   │   ├── Header.tsx
-│   │   ├── Page.stories.ts
-│   │   ├── Page.tsx
-│   │   ├── assets
-│   │   │   ├── accessibility.png
-│   │   │   ├── accessibility.svg
-│   │   │   ├── addon-library.png
-│   │   │   ├── assets.png
-│   │   │   ├── avif-test-image.avif
-│   │   │   ├── context.png
-│   │   │   ├── discord.svg
-│   │   │   ├── docs.png
-│   │   │   ├── figma-plugin.png
-│   │   │   ├── github.svg
-│   │   │   ├── share.png
-│   │   │   ├── styling.png
-│   │   │   ├── testing.png
-│   │   │   ├── theming.png
-│   │   │   ├── tutorials.svg
-│   │   │   └── youtube.svg
-│   │   ├── button.css
-│   │   ├── header.css
-│   │   └── page.css
-│   ├── styles
-│   └── types
-│       ├── paypal.d.ts
-│       └── react-simple-maps.d.ts
-├── styles
-│   └── globals.css
-├── tailwind.config.js
-├── tsconfig.json
-├── tsconfig.tsbuildinfo
-├── vitest.config.ts
-└── vitest.shims.d.ts
+[1.1K]  .
+├── [ 294]  .eslintrc.json
+├── [  96]  .github
+│   └── [ 128]  workflows
+│       ├── [1.3K]  azure-static-web-apps-dev.yml
+│       └── [1.3K]  azure-static-web-apps.yml
+├── [ 131]  .gitignore
+├── [   3]  .nvmrc
+├── [ 160]  .storybook
+│   ├── [ 503]  main.ts
+│   ├── [ 427]  preview.ts
+│   └── [ 454]  vitest.setup.ts
+├── [  96]  .vscode
+│   └── [ 272]  tasks.json
+├── [ 163]  build_no_lint.sh
+├── [6.1K]  DESIGN_SYSTEM.md
+├── [ 320]  design-system
+│   ├── [ 387]  index.html
+│   ├── [ 543]  package.json
+│   ├── [ 73K]  pnpm-lock.yaml
+│   ├── [ 192]  src
+│   │   ├── [ 713]  App.tsx
+│   │   ├── [ 320]  components
+│   │   │   ├── [6.3K]  InteractiveWorldMap.tsx
+│   │   │   ├── [   0]  simplified.geo.json
+│   │   │   ├── [  96]  src
+│   │   │   │   └── [  96]  components
+│   │   │   │       └── [   0]  worldMapData.ts
+│   │   │   ├── [ 14M]  world.geo.json
+│   │   │   ├── [9.4K]  worldMapData.ts
+│   │   │   ├── [ 584]  WorldNetworkMap_backup.tsx
+│   │   │   ├── [ 17K]  WorldNetworkMap_fixed.tsx
+│   │   │   └── [ 17K]  WorldNetworkMap.tsx
+│   │   ├── [  99]  index.css
+│   │   └── [ 357]  main.tsx
+│   ├── [ 247]  tailwind.config.js
+│   ├── [ 548]  tsconfig.json
+│   ├── [ 259]  vite.config.ts
+│   └── [ 14M]  world.geo.json
+├── [ 596]  eslint.config.mjs
+├── [ 427]  jest.config.js
+├── [  38]  jest.setup.js
+├── [  50]  jest.setup.ts
+├── [   0]  lions-of-zion-tree.txt
+├── [ 211]  next-env.d.ts
+├── [ 405]  next.config.ts
+├── [401K]  package-lock.json
+├── [2.0K]  package.json
+├── [243K]  pnpm-lock.yaml
+├── [ 134]  postcss.config.js
+├── [4.6K]  project-structure.txt
+├── [ 352]  public
+│   ├── [  96]  assets
+│   │   └── [  96]  images
+│   │       └── [1.0M]  logo.png.svg
+│   ├── [  96]  backgrounds
+│   │   └── [2.3M]  hero-background.svg
+│   ├── [ 391]  file.svg
+│   ├── [1.0K]  globe.svg
+│   ├── [1.3K]  next.svg
+│   ├── [ 128]  vercel.svg
+│   ├── [ 385]  window.svg
+│   ├── [ 619]  world-data.json
+│   └── [ 14M]  world.geo.json
+├── [4.9K]  README.md
+├── [2.2K]  scan_project.py
+├── [ 224]  src
+│   ├── [ 384]  app
+│   │   ├── [166K]  # Code Citations.md
+│   │   ├── [ 128]  about
+│   │   │   ├── [ 172]  layout.tsx
+│   │   │   └── [2.2K]  page.tsx
+│   │   ├── [ 128]  contact
+│   │   │   ├── [ 176]  layout.tsx
+│   │   │   └── [4.2K]  page.tsx
+│   │   ├── [ 25K]  favicon.ico
+│   │   ├── [2.8K]  globals.css
+│   │   ├── [1.2K]  layout.tsx
+│   │   ├── [ 128]  map
+│   │   │   ├── [ 227]  layout.tsx
+│   │   │   └── [ 355]  page.tsx
+│   │   ├── [ 106]  page.tsx
+│   │   ├── [ 128]  services
+│   │   │   ├── [ 178]  layout.tsx
+│   │   │   └── [  64]  page.tsx
+│   │   └── [ 128]  showcase
+│   │       ├── [ 178]  layout.tsx
+│   │       └── [  64]  page.tsx
+│   ├── [ 448]  components
+│   │   ├── [  96]  __tests__
+│   │   │   └── [ 582]  Hero.test.tsx
+│   │   ├── [ 128]  animation
+│   │   │   ├── [2.0K]  HeartbeatLine.tsx
+│   │   │   └── [1.2K]  LionOverlay.tsx
+│   │   ├── [  96]  background
+│   │   │   └── [ 864]  Skyline.tsx
+│   │   ├── [ 321]  Dashboard.tsx
+│   │   ├── [1.0K]  Hero.tsx
+│   │   ├── [ 128]  layout
+│   │   │   ├── [5.4K]  Footer.tsx
+│   │   │   └── [1.5K]  Header.tsx
+│   │   ├── [ 296]  NetworkDisplay.tsx
+│   │   ├── [ 256]  sections
+│   │   │   ├── [6.5K]  ContactSection.tsx
+│   │   │   ├── [3.6K]  DigitalLion.tsx
+│   │   │   ├── [4.9K]  FeaturesSection.tsx
+│   │   │   ├── [5.7K]  HeroSection.tsx
+│   │   │   ├── [2.3K]  MetricsDisplay.tsx
+│   │   │   └── [2.0K]  TrustIndicators.tsx
+│   │   ├── [1.9K]  SplashScreen.tsx
+│   │   ├── [ 288]  ui
+│   │   │   ├── [1.5K]  Alert.tsx
+│   │   │   ├── [1.2K]  Badge.tsx
+│   │   │   ├── [1.5K]  Button.tsx
+│   │   │   ├── [2.3K]  Card.tsx
+│   │   │   ├── [3.0K]  Hero.tsx
+│   │   │   ├── [ 594]  index.ts
+│   │   │   └── [1.1K]  Input.tsx
+│   │   ├── [ 17K]  WorldNetworkMap_backup.tsx
+│   │   └── [4.3K]  WorldNetworkMap.tsx
+│   ├── [  96]  lib
+│   │   └── [ 169]  utils.ts
+│   ├── [ 416]  stories
+│   │   ├── [ 576]  assets
+│   │   │   ├── [ 41K]  accessibility.png
+│   │   │   ├── [1.5K]  accessibility.svg
+│   │   │   ├── [456K]  addon-library.png
+│   │   │   ├── [3.8K]  assets.png
+│   │   │   ├── [ 829]  avif-test-image.avif
+│   │   │   ├── [6.0K]  context.png
+│   │   │   ├── [2.3K]  discord.svg
+│   │   │   ├── [ 27K]  docs.png
+│   │   │   ├── [ 43K]  figma-plugin.png
+│   │   │   ├── [2.7K]  github.svg
+│   │   │   ├── [ 40K]  share.png
+│   │   │   ├── [7.1K]  styling.png
+│   │   │   ├── [ 48K]  testing.png
+│   │   │   ├── [ 43K]  theming.png
+│   │   │   ├── [1.2K]  tutorials.svg
+│   │   │   └── [ 716]  youtube.svg
+│   │   ├── [ 642]  button.css
+│   │   ├── [1.4K]  Button.stories.ts
+│   │   ├── [ 938]  Button.tsx
+│   │   ├── [ 13K]  Configure.mdx
+│   │   ├── [ 623]  header.css
+│   │   ├── [ 794]  Header.stories.ts
+│   │   ├── [1.5K]  Header.tsx
+│   │   ├── [1.1K]  page.css
+│   │   ├── [1.0K]  Page.stories.ts
+│   │   └── [2.5K]  Page.tsx
+│   └── [ 128]  types
+│       ├── [ 305]  paypal.d.ts
+│       └── [1.1K]  react-simple-maps.d.ts
+├── [  96]  styles
+│   └── [  59]  globals.css
+├── [1.8K]  tailwind.config.js
+├── [ 568]  tailwind.config.ts
+├── [ 618]  tsconfig.json
+├── [1.1K]  vitest.config.ts
+└── [  62]  vitest.shims.d.ts
 
-50 directories, 115 files
+33 directories, 127 files
