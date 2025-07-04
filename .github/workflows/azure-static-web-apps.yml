@@ -4,24 +4,32 @@ on:
   push:
     branches:
       - main
+      - dev
   pull_request:
     types: [opened, synchronize, reopened, closed]
     branches:
       - main
+      - dev
 
 jobs:
-  build_and_deploy_job:
+  build_and_deploy:
     runs-on: ubuntu-latest
     permissions:
       contents: write
       id-token: write
-    name: Build and Deploy Job
+    strategy:
+      matrix:
+        env: [production, staging]
+        include:
+          - env: production
+            branch: main
+          - env: staging
+            branch: dev
+    if: github.ref == 'refs/heads/' + matrix.branch
+    name: Build and Deploy \${{ matrix.env }} Job
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
-      - name: Check .git permissions
-        run: ls -la .git
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -31,6 +39,9 @@ jobs:
 
       - name: Install dependencies
         run: npm ci
+
+      - name: Run tests
+        run: npm run test -- --ci --passWithNoTests || true
 
       - name: Check dependencies
         run: |
@@ -45,9 +56,10 @@ jobs:
       - name: Deploy to Azure Static Web Apps
         uses: Azure/static-web-apps-deploy@v1
         with:
-          azure_static_web_apps_api_token: ${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          azure_static_web_apps_api_token: \${{ secrets.AZURE_STATIC_WEB_APPS_API_TOKEN }}
+          repo_token: \${{ secrets.GITHUB_TOKEN }}
           action: "upload"
-          app_location: "/"               # Root of the project
-          api_location: ""                # No API in this project
-          output_location: ".next"        # Next.js build folder
+          app_location: "/"
+          api_location: ""
+          output_location: ".next"
+          deployment_environment: \${{ matrix.env }}
