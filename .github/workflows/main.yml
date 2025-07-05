@@ -14,6 +14,9 @@ jobs:
       - name: Checkout repo
         uses: actions/checkout@v4
 
+      - name: Install pnpm globally
+        run: npm install -g pnpm
+
       - name: Setup Node
         uses: actions/setup-node@v4
         with:
@@ -38,7 +41,12 @@ jobs:
         run: pnpm lint || true
 
       - name: Test (optional)
-        run: pnpm test || echo "No tests found"
+        run: |
+          if npm run test --if-present; then
+            echo "Tests completed successfully"
+          else
+            echo "No tests found or tests failed (continuing anyway)"
+          fi
 
       - name: Azure Static Web Apps Deploy
         uses: Azure/static-web-apps-deploy@v1
