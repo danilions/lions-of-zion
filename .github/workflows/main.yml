@@ -55,5 +55,5 @@ jobs:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
           action: "upload"
           app_location: "/"            
-          api_location: "src/app/api"            
+          api_location: "api"            
           output_location: ".next"
