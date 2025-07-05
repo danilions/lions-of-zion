@@ -64,6 +64,7 @@ export default function Home() {
       <header className="fixed top-0 left-0 right-0 z-40 bg-black bg-opacity-20 backdrop-blur-sm border-b border-cyan-500 border-opacity-30">
         <div className="flex items-center justify-between px-4 py-2 md:px-6 md:py-3">
           <div className="flex items-center space-x-4">
+            {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
               src="/assets/images/logo.svg" 
               alt="Lions of Zion Logo" 

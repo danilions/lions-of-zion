@@ -104,7 +104,7 @@ const WorldNetworkMap = () => {
           .enter()
           .append('path')
           .attr('class', 'country')
-          .attr('d', path as any)
+          .attr('d', path as unknown as string)
           .style('fill', '#0A1327')
           .style('stroke', '#ffffff')
           .style('stroke-width', '0.5px')
