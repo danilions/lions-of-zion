@@ -62,8 +62,8 @@ export default function Home() {
       </div>
 
       {/* Top Navigation Bar */}
-      <header className="fixed top-0 left-0 right-0 z-40 bg-black bg-opacity-20 backdrop-blur-sm border-b border-cyan-500 border-opacity-30">
-        <div className="flex items-center justify-between px-4 py-2 md:px-6 md:py-3">
+      <header className="fixed top-0 left-0 right-0 z-40 bg-black/30 backdrop-blur-md border-b border-cyan-500/30">
+        <div className="flex items-center justify-between px-4 py-3 md:px-6 md:py-4">
           <div className="flex items-center space-x-4">
             {/* eslint-disable-next-line @next/next/no-img-element */}
             <img 
@@ -76,22 +76,22 @@ export default function Home() {
           </div>
           
           {/* Desktop Navigation */}
-          <nav className="hidden md:flex items-center space-x-6">
+          <nav className="hidden md:flex items-center space-x-8">
             <button 
               onClick={() => setIsContactOpen(true)}
-              className="text-cyan-400 hover:text-cyan-300 transition-colors text-sm font-medium"
+              className="nav-link"
             >
               Contact
             </button>
             <a 
               href="#telegram" 
-              className="text-cyan-400 hover:text-cyan-300 transition-colors text-sm font-medium"
+              className="nav-link"
             >
               Telegram
             </a>
             <a 
               href="#about" 
-              className="text-cyan-400 hover:text-cyan-300 transition-colors text-sm font-medium"
+              className="nav-link"
             >
               About
             </a>
@@ -159,12 +159,9 @@ export default function Home() {
           
           {/* Main CTA Button */}
           <div className="pointer-events-auto">
-            <button className="group relative px-8 py-4 bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white font-bold text-lg rounded-lg transition-all duration-300 transform hover:scale-105 glow-box animate-pulse">
+            <button className="hero-cta-button">
               <span className="relative z-10">Join as Consciousness Partners</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-cyan-400 to-blue-400 rounded-lg opacity-0 group-hover:opacity-20 transition-opacity duration-300"></div>
-              <div className="absolute inset-0 rounded-lg animate-pulse" style={{ 
-                boxShadow: '0 0 20px rgba(0, 255, 255, 0.5), 0 0 40px rgba(0, 255, 255, 0.3), 0 0 60px rgba(0, 255, 255, 0.1)' 
-              }}></div>
+              <div className="hero-cta-glow"></div>
             </button>
           </div>
         </div>
@@ -244,59 +241,61 @@ export default function Home() {
 
       {/* Main Content Sections - Scrollable below hero */}
       <div className="fixed inset-0 z-20 overflow-y-auto custom-scrollbar" style={{ paddingTop: '100vh' }}>
-        <div className="min-h-screen bg-gradient-to-b from-transparent via-black/70 to-black/90">
+        <div className="min-h-screen bg-gradient-to-b from-black/80 via-black/90 to-black/95">
           
           {/* Section 1: Live Feed */}
-          <section className="section-spacing px-4 md:px-8">
+          <section className="section-container mx-4 md:mx-8 mb-8">
             <div className="max-w-6xl mx-auto">
-              <div className="content-overlay rounded-lg p-6 md:p-8 mb-8">
-                <h2 className="text-3xl md:text-4xl font-bold text-cyan-400 glow-cyan mb-6 techno-hebrew">
-                  📡 Live Feed
-                </h2>
-                <p className="text-gray-300 mb-6 body-global">
-                  Real-time updates from X, Telegram, and internal intelligence networks
-                </p>
-                
+              <div className="content-card p-6 md:p-8">
+                <div className="section-header mb-8">
+                  <h2 className="section-title text-cyan-400 glow-cyan">
+                    📡 Live Feed
+                  </h2>
+                  <div className="section-divider bg-cyan-500"></div>
+                  <p className="section-description">
+                    Real-time updates from X, Telegram, and internal intelligence networks
+                  </p>
+                </div>
                 {/* Feed Filters */}
-                <div className="flex flex-wrap gap-3 mb-6">
-                  <button className="px-4 py-2 bg-cyan-600/20 text-cyan-400 rounded-lg border border-cyan-500/30 hover:bg-cyan-600/30 transition-all interactive-hover">
+                <div className="flex flex-wrap gap-3 mb-8">
+                  <button className="filter-button filter-active">
                     All Sources
                   </button>
-                  <button className="px-4 py-2 bg-gray-800/50 text-gray-300 rounded-lg border border-gray-600/30 hover:bg-gray-700/50 transition-all interactive-hover">
+                  <button className="filter-button">
                     X/Twitter
                   </button>
-                  <button className="px-4 py-2 bg-gray-800/50 text-gray-300 rounded-lg border border-gray-600/30 hover:bg-gray-700/50 transition-all interactive-hover">
+                  <button className="filter-button">
                     Telegram
                   </button>
-                  <button className="px-4 py-2 bg-gray-800/50 text-gray-300 rounded-lg border border-gray-600/30 hover:bg-gray-700/50 transition-all interactive-hover">
+                  <button className="filter-button">
                     Geographic
                   </button>
                 </div>
 
                 {/* Live Feed Items */}
-                <div className="space-y-4">
-                  <div className="bg-gray-900/50 rounded-lg p-4 border border-cyan-500/20">
-                    <div className="flex items-center justify-between mb-2">
-                      <div className="flex items-center space-x-2">
-                        <div className="w-3 h-3 bg-green-400 rounded-full consciousness-indicator"></div>
-                        <span className="text-cyan-300 font-medium">@LionsOfZion</span>
-                        <span className="text-xs text-gray-400">X Platform</span>
+                <div className="space-y-6">
+                  <div className="feed-item">
+                    <div className="flex items-center justify-between mb-3">
+                      <div className="flex items-center space-x-3">
+                        <div className="status-indicator bg-green-400"></div>
+                        <span className="feed-source text-cyan-300">@LionsOfZion</span>
+                        <span className="feed-platform">X Platform</span>
                       </div>
-                      <span className="text-xs text-gray-400">2 min ago</span>
+                      <span className="feed-time">2 min ago</span>
                     </div>
-                    <p className="text-gray-300 body-global">Latest intelligence report: Network operational status confirmed across all consciousness nodes. Truth verification systems online. 🌐</p>
+                    <p className="feed-content">Latest intelligence report: Network operational status confirmed across all consciousness nodes. Truth verification systems online. 🌐</p>
                   </div>
                   
-                  <div className="bg-gray-900/50 rounded-lg p-4 border border-cyan-500/20">
-                    <div className="flex items-center justify-between mb-2">
-                      <div className="flex items-center space-x-2">
-                        <div className="w-3 h-3 bg-blue-400 rounded-full consciousness-indicator"></div>
-                        <span className="text-cyan-300 font-medium">Global Alert</span>
-                        <span className="text-xs text-gray-400">Multiple Sources</span>
+                  <div className="feed-item">
+                    <div className="flex items-center justify-between mb-3">
+                      <div className="flex items-center space-x-3">
+                        <div className="status-indicator bg-blue-400"></div>
+                        <span className="feed-source text-cyan-300">Global Alert</span>
+                        <span className="feed-platform">Multiple Sources</span>
                       </div>
-                      <span className="text-xs text-gray-400">5 min ago</span>
+                      <span className="feed-time">5 min ago</span>
                     </div>
-                    <p className="text-gray-300 body-global">Disinformation pattern detected across European networks. Response protocols activated. Analysis in progress...</p>
+                    <p className="feed-content">Disinformation pattern detected across European networks. Response protocols activated. Analysis in progress...</p>
                   </div>
                 </div>
               </div>
@@ -304,37 +303,39 @@ export default function Home() {
           </section>
 
           {/* Section 2: AI Fake News Detection */}
-          <section className="section-spacing px-4 md:px-8">
+          <section className="section-container mx-4 md:mx-8 mb-8">
             <div className="max-w-6xl mx-auto">
-              <div className="content-overlay rounded-lg p-6 md:p-8 mb-8">
-                <h2 className="text-3xl md:text-4xl font-bold text-yellow-400 glow-yellow mb-6 techno-hebrew">
-                  🤖 AI Truth Verification
-                </h2>
-                <p className="text-gray-300 mb-6 body-global">
-                  Advanced AI system for detecting fake news and disinformation campaigns
-                </p>
-                
+              <div className="content-card p-6 md:p-8">
+                <div className="section-header mb-8">
+                  <h2 className="section-title text-yellow-400 glow-yellow">
+                    🤖 AI Truth Verification
+                  </h2>
+                  <div className="section-divider bg-yellow-500"></div>
+                  <p className="section-description">
+                    Advanced AI system for detecting fake news and disinformation campaigns
+                  </p>
+                </div>
                 {/* Truth Check Interface */}
-                <div className="space-y-4">
+                <div className="space-y-6">
                   <div className="relative">
                     <textarea
                       placeholder="Paste text, URL, or claim to verify..."
-                      className="w-full h-32 px-4 py-3 bg-gray-900/70 border border-gray-600/50 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 resize-none body-global"
+                      className="form-textarea w-full h-32"
                     />
                   </div>
                   
-                  <button className="w-full md:w-auto px-8 py-3 bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-black font-bold rounded-lg transition-all duration-300 transform hover:scale-105 interactive-hover">
+                  <button className="cta-button bg-gradient-to-r from-yellow-600 to-yellow-500 hover:from-yellow-500 hover:to-yellow-400 text-black">
                     🔍 Check Truth
                   </button>
                   
                   {/* Sample Result Display */}
-                  <div className="mt-6 p-4 bg-green-900/30 border border-green-500/30 rounded-lg">
-                    <div className="flex items-center space-x-2 mb-2">
-                      <div className="w-3 h-3 bg-green-400 rounded-full"></div>
-                      <span className="text-green-400 font-bold">VERIFIED TRUE</span>
-                      <span className="text-xs text-gray-400">Confidence: 94%</span>
+                  <div className="result-card border-green-500/30 bg-green-900/20">
+                    <div className="flex items-center space-x-3 mb-3">
+                      <div className="status-indicator bg-green-400"></div>
+                      <span className="result-status text-green-400">VERIFIED TRUE</span>
+                      <span className="confidence-score">Confidence: 94%</span>
                     </div>
-                    <p className="text-gray-300 text-sm body-global">
+                    <p className="result-description">
                       Cross-referenced with multiple reliable sources. No contradiction patterns detected.
                     </p>
                   </div>
@@ -344,43 +345,45 @@ export default function Home() {
           </section>
 
           {/* Section 3: Smart Response System */}
-          <section className="section-spacing px-4 md:px-8">
+          <section className="section-container mx-4 md:mx-8 mb-8">
             <div className="max-w-6xl mx-auto">
-              <div className="content-overlay rounded-lg p-6 md:p-8 mb-8">
-                <h2 className="text-3xl md:text-4xl font-bold text-gold-400 glow-gold mb-6 techno-hebrew">
-                  🧠 Smart Response System
-                </h2>
-                <p className="text-gray-300 mb-6 body-global">
-                  AI-generated responses to counter disinformation with accurate, shareable content
-                </p>
-                
-                <div className="space-y-4">
+              <div className="content-card p-6 md:p-8">
+                <div className="section-header mb-8">
+                  <h2 className="section-title text-gold-400 glow-gold">
+                    🧠 Smart Response System
+                  </h2>
+                  <div className="section-divider bg-yellow-500"></div>
+                  <p className="section-description">
+                    AI-generated responses to counter disinformation with accurate, shareable content
+                  </p>
+                </div>
+                <div className="space-y-6">
                   <div className="relative">
                     <input
                       type="text"
                       placeholder="What response do you need? e.g., 'Counter fake news about Israel in Europe'"
-                      className="w-full px-4 py-3 bg-gray-900/70 border border-gray-600/50 rounded-lg text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-500 focus:border-yellow-500 body-global"
+                      className="form-input w-full"
                     />
                   </div>
                   
-                  <button className="px-8 py-3 bg-gradient-to-r from-yellow-600 to-orange-500 hover:from-yellow-500 hover:to-orange-400 text-white font-bold rounded-lg transition-all duration-300 transform hover:scale-105 interactive-hover">
+                  <button className="cta-button bg-gradient-to-r from-yellow-600 to-orange-500 hover:from-yellow-500 hover:to-orange-400 text-white">
                     ⚡ Generate Response
                   </button>
                   
                   {/* Sample Generated Response */}
-                  <div className="mt-6 p-4 bg-gray-900/50 border border-yellow-500/30 rounded-lg">
-                    <div className="flex items-center justify-between mb-3">
-                      <span className="text-yellow-400 font-bold">Ready-to-Share Content</span>
-                      <button className="text-cyan-400 hover:text-cyan-300 text-sm">📋 Copy</button>
+                  <div className="result-card border-yellow-500/30 bg-yellow-900/10">
+                    <div className="flex items-center justify-between mb-4">
+                      <span className="result-status text-yellow-400">Ready-to-Share Content</span>
+                      <button className="copy-button">📋 Copy</button>
                     </div>
-                    <div className="bg-gray-800/50 p-3 rounded text-gray-300 text-sm body-global">
+                    <div className="generated-content">
                       &quot;Fact-check: The claim circulating about [topic] lacks verification from credible sources. Here are the verified facts: [accurate information with sources]. #TruthMatters #FactCheck&quot;
                     </div>
-                    <div className="flex space-x-2 mt-3">
-                      <button className="px-3 py-1 bg-blue-600/20 text-blue-400 rounded text-xs border border-blue-500/30">
+                    <div className="flex flex-wrap gap-2 mt-4">
+                      <button className="format-button bg-blue-600/20 text-blue-400 border-blue-500/30">
                         📱 Instagram Format
                       </button>
-                      <button className="px-3 py-1 bg-cyan-600/20 text-cyan-400 rounded text-xs border border-cyan-500/30">
+                      <button className="format-button bg-cyan-600/20 text-cyan-400 border-cyan-500/30">
                         🐦 Twitter Format
                       </button>
                     </div>
@@ -391,15 +394,18 @@ export default function Home() {
           </section>
 
           {/* Section 4: Consciousness Archive */}
-          <section className="section-spacing px-4 md:px-8">
+          <section className="section-container mx-4 md:mx-8 mb-8">
             <div className="max-w-6xl mx-auto">
-              <div className="content-overlay rounded-lg p-6 md:p-8 mb-8">
-                <h2 className="text-3xl md:text-4xl font-bold text-cyan-400 glow-cyan mb-6 techno-hebrew">
-                  🗄️ Consciousness Archive
-                </h2>
-                <p className="text-gray-300 mb-6 body-global">
-                  Comprehensive database of disinformation patterns, investigations, and verified intelligence
-                </p>
+              <div className="content-card p-6 md:p-8">
+                <div className="section-header mb-8">
+                  <h2 className="section-title text-cyan-400 glow-cyan">
+                    🗄️ Consciousness Archive
+                  </h2>
+                  <div className="section-divider bg-cyan-500"></div>
+                  <p className="section-description">
+                    Comprehensive database of disinformation patterns, investigations, and verified intelligence
+                  </p>
+                </div>
                 
                 {/* Search and Filter Interface */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-6">
@@ -457,15 +463,18 @@ export default function Home() {
           </section>
 
           {/* Section 5: Awareness Space */}
-          <section className="section-spacing px-4 md:px-8">
+          <section className="section-container mx-4 md:mx-8 mb-8">
             <div className="max-w-6xl mx-auto">
-              <div className="content-overlay rounded-lg p-6 md:p-8 mb-8">
-                <h2 className="text-3xl md:text-4xl font-bold text-yellow-400 glow-yellow mb-6 techno-hebrew">
-                  📢 Awareness Space
-                </h2>
-                <p className="text-gray-300 mb-6 body-global">
-                  Ready-to-share content library: infographics, posts, and educational materials
-                </p>
+              <div className="content-card p-6 md:p-8">
+                <div className="section-header mb-8">
+                  <h2 className="section-title text-yellow-400 glow-yellow">
+                    📢 Awareness Space
+                  </h2>
+                  <div className="section-divider bg-yellow-500"></div>
+                  <p className="section-description">
+                    Ready-to-share content library: infographics, posts, and educational materials
+                  </p>
+                </div>
                 
                 {/* Content Categories */}
                 <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -501,12 +510,15 @@ export default function Home() {
           </section>
 
           {/* Section 6: Community and Donations */}
-          <section className="section-spacing px-4 md:px-8">
+          <section className="section-container mx-4 md:mx-8 mb-8">
             <div className="max-w-6xl mx-auto">
-              <div className="content-overlay rounded-lg p-6 md:p-8 mb-8">
-                <h2 className="text-3xl md:text-4xl font-bold text-cyan-400 glow-cyan mb-6 techno-hebrew">
-                  💬 Join the Consciousness Network
-                </h2>
+              <div className="content-card p-6 md:p-8">
+                <div className="section-header mb-8">
+                  <h2 className="section-title text-cyan-400 glow-cyan">
+                    💬 Join the Consciousness Network
+                  </h2>
+                  <div className="section-divider bg-cyan-500"></div>
+                </div>
                 
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
                   {/* Community Sign-up */}
@@ -583,16 +595,16 @@ export default function Home() {
           </section>
 
           {/* Footer */}
-          <footer className="section-spacing px-4 md:px-8 bg-black/50">
-            <div className="max-w-6xl mx-auto text-center">
-              <div className="text-2xl md:text-3xl font-bold text-cyan-400 glow-cyan mb-4 techno-hebrew">
+          <footer className="section-container mx-4 md:mx-8 mb-8 bg-black/80 border-t-2 border-cyan-500/30">
+            <div className="max-w-6xl mx-auto text-center py-8">
+              <div className="footer-logo mb-6">
                 @LionsOfZion | Truth. Action. Unity.
               </div>
-              <div className="flex justify-center space-x-6 text-gray-400">
-                <a href="#" className="hover:text-cyan-400 transition-colors">Privacy</a>
-                <a href="#" className="hover:text-cyan-400 transition-colors">Terms</a>
-                <a href="#" className="hover:text-cyan-400 transition-colors">Contact</a>
-                <a href="#" className="hover:text-cyan-400 transition-colors">About</a>
+              <div className="footer-links flex justify-center space-x-8 text-gray-400">
+                <a href="#" className="footer-link">Privacy</a>
+                <a href="#" className="footer-link">Terms</a>
+                <a href="#" className="footer-link">Contact</a>
+                <a href="#" className="footer-link">About</a>
               </div>
             </div>
           </footer>
