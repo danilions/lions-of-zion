@@ -16,6 +16,27 @@ interface StructuredLog {
   };
 }
 
+// ChatGPT connector expected request/response interfaces
+interface ChatGPTRequest {
+  message?: string;
+  conversation_id?: string;
+  user_id?: string;
+  action?: string;
+  input?: string;
+  query?: string;
+  [key: string]: unknown; // Allow additional properties
+}
+
+interface ChatGPTResponse {
+  status: 'success' | 'error';
+  message: string;
+  data?: unknown;
+  conversation_id?: string;
+  response?: string;
+  result?: string;
+  timestamp: string;
+}
+
 // Utility function for structured logging compatible with Azure Log Analytics
 function logStructured(log: StructuredLog): void {
   const logEntry = {
@@ -29,13 +50,16 @@ function logStructured(log: StructuredLog): void {
   console.log(`[STRUCTURED][${log.level}][${log.requestId}] ${log.event}`, JSON.stringify(logEntry));
 }
 
-// CORS headers for ChatGPT Connector compatibility
+// Enhanced CORS headers for ChatGPT Connector compatibility
 function getCorsHeaders(): Record<string, string> {
   return {
     'Access-Control-Allow-Origin': '*',
-    'Access-Control-Allow-Methods': 'POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type, Authorization, Accept, Origin, X-Requested-With',
-    'Access-Control-Max-Age': '86400'
+    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type, Authorization, Accept, Origin, X-Requested-With, X-API-Key, X-ChatGPT-Request',
+    'Access-Control-Allow-Credentials': 'false',
+    'Access-Control-Expose-Headers': 'X-Request-ID, X-Processing-Time',
+    'Access-Control-Max-Age': '86400',
+    'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers'
   };
 }
 
@@ -183,20 +207,45 @@ export async function POST(request: NextRequest) {
       // Business logic processing with performance tracking
       const businessLogicStart = Date.now();
       
-      // Simulate any business logic here (currently just logging the received data)
+      // Enhanced ChatGPT connector compatibility processing
+      const chatGPTRequest = jsonData as ChatGPTRequest;
+      
       logStructured({
         timestamp: new Date().toISOString(),
         level: 'INFO',
         requestId,
-        event: 'business_logic_processing',
+        event: 'chatgpt_request_processing',
         data: {
-          hasData: !!jsonData,
-          dataType: typeof jsonData,
-          processingStarted: true
+          hasMessage: !!chatGPTRequest.message,
+          hasInput: !!chatGPTRequest.input,
+          hasQuery: !!chatGPTRequest.query,
+          hasAction: !!chatGPTRequest.action,
+          conversationId: chatGPTRequest.conversation_id,
+          userId: chatGPTRequest.user_id,
+          dataKeys: Object.keys(chatGPTRequest)
         }
       });
       
-      // Add artificial delay to test timeout handling (remove in production)
+      // Process the request and generate appropriate response
+      let responseMessage = 'Request received successfully';
+      let responseData: unknown = null;
+      
+      // Handle different types of ChatGPT requests
+      if (chatGPTRequest.message) {
+        responseMessage = `Processed message: ${chatGPTRequest.message}`;
+        responseData = { originalMessage: chatGPTRequest.message };
+      } else if (chatGPTRequest.input) {
+        responseMessage = `Processed input: ${chatGPTRequest.input}`;
+        responseData = { originalInput: chatGPTRequest.input };
+      } else if (chatGPTRequest.query) {
+        responseMessage = `Processed query: ${chatGPTRequest.query}`;
+        responseData = { originalQuery: chatGPTRequest.query };
+      } else if (chatGPTRequest.action) {
+        responseMessage = `Processed action: ${chatGPTRequest.action}`;
+        responseData = { originalAction: chatGPTRequest.action };
+      }
+      
+      // Simulate processing time (remove in production)
       // await new Promise(resolve => setTimeout(resolve, 100));
       
       const businessLogicTime = Date.now() - businessLogicStart;
@@ -209,8 +258,9 @@ export async function POST(request: NextRequest) {
         requestId,
         event: 'webhook_request_success',
         data: {
-          dataReceived: jsonData,
+          dataReceived: chatGPTRequest,
           businessLogicTimeMs: businessLogicTime,
+          responseMessage,
           memoryDelta: {
             heapUsed: endMetrics.memoryUsage.heapUsed - startMetrics.memoryUsage.heapUsed,
             rss: endMetrics.memoryUsage.rss - startMetrics.memoryUsage.rss
@@ -230,24 +280,39 @@ export async function POST(request: NextRequest) {
         memoryUsage: endMetrics.memoryUsage
       });
       
-      // Respond with success message including diagnostic info
+      // ChatGPT-compatible response format
+      const chatGPTResponse: ChatGPTResponse = {
+        status: 'success',
+        message: responseMessage,
+        data: responseData,
+        conversation_id: chatGPTRequest.conversation_id,
+        response: responseMessage,
+        result: 'success',
+        timestamp: new Date().toISOString()
+      };
+      
+      // Respond with ChatGPT-compatible format including diagnostic info
       return NextResponse.json(
-        { 
-          message: 'Received',
-          status: 'success',
-          timestamp: new Date().toISOString(),
-          requestId,
-          processingTime: `${totalProcessingTime}ms`,
-          businessLogicTime: `${businessLogicTime}ms`
+        {
+          ...chatGPTResponse,
+          // Additional diagnostic fields for debugging
+          _debug: {
+            requestId,
+            processingTime: `${totalProcessingTime}ms`,
+            businessLogicTime: `${businessLogicTime}ms`,
+            memoryUsed: endMetrics.memoryUsage.heapUsed
+          }
         },
         { 
           status: 200,
           headers: {
             ...getCorsHeaders(),
+            'Content-Type': 'application/json',
             'X-Request-ID': requestId,
             'X-Processing-Time': `${totalProcessingTime}ms`,
             'X-Business-Logic-Time': `${businessLogicTime}ms`,
-            'X-Memory-Used': `${endMetrics.memoryUsage.heapUsed}`
+            'X-Memory-Used': `${endMetrics.memoryUsage.heapUsed}`,
+            'X-ChatGPT-Compatible': 'true'
           }
         }
       );
@@ -323,38 +388,75 @@ export async function POST(request: NextRequest) {
 }
 
 /**
- * Enhanced handlers for unsupported HTTP methods with structured logging
- * Only POST is allowed for this webhook endpoint
+ * GET handler for ChatGPT Connector discovery and health checks
+ * Provides endpoint information and capabilities
  */
 export async function GET(request: NextRequest) {
   const requestId = `req_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
   
   logStructured({
     timestamp: new Date().toISOString(),
-    level: 'WARN',
+    level: 'INFO',
     requestId,
-    event: 'unsupported_method_attempted',
+    event: 'discovery_request',
     data: {
       method: 'GET',
       url: request.url,
       userAgent: request.headers.get('user-agent'),
-      origin: request.headers.get('origin')
+      origin: request.headers.get('origin'),
+      accept: request.headers.get('accept')
     }
   });
   
-  return NextResponse.json(
-    { 
-      message: 'Method not allowed. Only POST requests are accepted.',
-      method: 'GET',
-      requestId,
-      timestamp: new Date().toISOString()
+  // ChatGPT connector discovery response
+  const discoveryResponse = {
+    name: 'Lions of Zion API',
+    description: 'Custom ChatGPT Connector for Lions of Zion Organization',
+    version: '2.0',
+    status: 'active',
+    capabilities: [
+      'message_processing',
+      'query_handling',
+      'action_execution'
+    ],
+    endpoints: {
+      webhook: '/api/chatgpt-webhook',
+      methods: ['POST', 'OPTIONS']
     },
+    formats: {
+      request: {
+        content_type: 'application/json',
+        fields: ['message', 'input', 'query', 'action', 'conversation_id', 'user_id']
+      },
+      response: {
+        content_type: 'application/json',
+        fields: ['status', 'message', 'data', 'response', 'result', 'timestamp']
+      }
+    },
+    cors: {
+      enabled: true,
+      origins: ['*'],
+      methods: ['GET', 'POST', 'OPTIONS'],
+      headers: ['Content-Type', 'Authorization', 'Accept', 'Origin', 'X-Requested-With']
+    },
+    authentication: {
+      required: false,
+      type: 'none'
+    },
+    timestamp: new Date().toISOString(),
+    requestId
+  };
+  
+  return NextResponse.json(
+    discoveryResponse,
     { 
-      status: 405,
+      status: 200,
       headers: {
         ...getCorsHeaders(),
-        'Allow': 'POST, OPTIONS',
-        'X-Request-ID': requestId
+        'Content-Type': 'application/json',
+        'X-Request-ID': requestId,
+        'X-Endpoint-Type': 'discovery',
+        'X-ChatGPT-Compatible': 'true'
       }
     }
   );
@@ -457,8 +559,8 @@ export async function PATCH(request: NextRequest) {
 }
 
 /**
- * OPTIONS handler for CORS preflight requests - Required for ChatGPT Connectors
- * Enables cross-origin requests from ChatGPT's domain
+ * Enhanced OPTIONS handler for CORS preflight requests - Required for ChatGPT Connectors
+ * Enables cross-origin requests from ChatGPT's domain and other authorized origins
  */
 export async function OPTIONS(request: NextRequest) {
   const requestId = `req_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
@@ -472,18 +574,25 @@ export async function OPTIONS(request: NextRequest) {
       origin: request.headers.get('origin'),
       requestMethod: request.headers.get('access-control-request-method'),
       requestHeaders: request.headers.get('access-control-request-headers'),
-      userAgent: request.headers.get('user-agent')
+      userAgent: request.headers.get('user-agent'),
+      referrer: request.headers.get('referer') || request.headers.get('referrer')
     }
   });
 
-  // Set comprehensive CORS headers for ChatGPT Connector compatibility
+  // Set comprehensive CORS headers for maximum ChatGPT Connector compatibility
   const corsHeaders = {
     'Access-Control-Allow-Origin': '*', // Allow all origins for ChatGPT Connectors
-    'Access-Control-Allow-Methods': 'POST, OPTIONS',
-    'Access-Control-Allow-Headers': 'Content-Type, Authorization, Accept, Origin, X-Requested-With',
+    'Access-Control-Allow-Methods': 'GET, POST, PUT, DELETE, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type, Authorization, Accept, Origin, X-Requested-With, X-API-Key, X-ChatGPT-Request',
+    'Access-Control-Allow-Credentials': 'false',
+    'Access-Control-Expose-Headers': 'X-Request-ID, X-Processing-Time, X-ChatGPT-Compatible',
     'Access-Control-Max-Age': '86400', // Cache preflight for 24 hours
+    'Content-Type': 'application/json',
+    'Vary': 'Origin, Access-Control-Request-Method, Access-Control-Request-Headers',
     'X-Request-ID': requestId,
-    'X-CORS-Enabled': 'true'
+    'X-CORS-Enabled': 'true',
+    'X-ChatGPT-Compatible': 'true',
+    'X-Endpoint-Type': 'preflight'
   };
 
   return new NextResponse(null, {
