@@ -21,7 +21,7 @@ export async function POST(request: NextRequest) {
       if (body) {
         jsonData = JSON.parse(body);
       }
-    } catch (e) {
+    } catch {
       // Body parsing failed, but that's okay for testing
     }
     
