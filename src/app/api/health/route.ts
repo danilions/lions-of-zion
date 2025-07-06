@@ -1,10 +1,10 @@
-import { NextRequest, NextResponse } from 'next/server';
+import { NextResponse } from 'next/server';
 
 /**
  * Health Check API Route for ChatGPT Webhook monitoring
  * Provides system status, memory usage, and API readiness information
  */
-export async function GET(request: NextRequest) {
+export async function GET() {
   const startTime = Date.now();
   const requestId = `health_${Date.now()}_${Math.random().toString(36).substr(2, 6)}`;
   

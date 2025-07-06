@@ -6,7 +6,7 @@ interface StructuredLog {
   level: 'INFO' | 'WARN' | 'ERROR' | 'DEBUG';
   requestId: string;
   event: string;
-  data?: any;
+  data?: Record<string, unknown>;
   duration?: number;
   memoryUsage?: NodeJS.MemoryUsage;
   error?: {
