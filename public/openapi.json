@@ -1,0 +1,353 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "title": "Lions of Zion ChatGPT Connector API",
+    "description": "Custom webhook API for ChatGPT integration with Lions of Zion services",
+    "version": "2.0.0",
+    "contact": {
+      "name": "Lions of Zion Support",
+      "url": "https://lionsofzion-official.org"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://lionsofzion-official.org",
+      "description": "Production server"
+    }
+  ],
+  "paths": {
+    "/api/chatgpt-webhook": {
+      "get": {
+        "summary": "Discovery endpoint",
+        "description": "Returns information about the API capabilities and endpoints",
+        "operationId": "getApiInfo",
+        "responses": {
+          "200": {
+            "description": "API information retrieved successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/DiscoveryResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "post": {
+        "summary": "Process ChatGPT webhook request",
+        "description": "Main endpoint for processing requests from ChatGPT connectors",
+        "operationId": "processWebhook",
+        "requestBody": {
+          "required": true,
+          "content": {
+            "application/json": {
+              "schema": {
+                "$ref": "#/components/schemas/ChatGPTRequest"
+              }
+            }
+          }
+        },
+        "responses": {
+          "200": {
+            "description": "Request processed successfully",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ChatGPTResponse"
+                }
+              }
+            }
+          },
+          "400": {
+            "description": "Bad request - Invalid JSON or missing required fields",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          },
+          "500": {
+            "description": "Internal server error",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "$ref": "#/components/schemas/ErrorResponse"
+                }
+              }
+            }
+          }
+        }
+      },
+      "options": {
+        "summary": "CORS preflight",
+        "description": "Handles CORS preflight requests for cross-origin compatibility",
+        "operationId": "handleCors",
+        "responses": {
+          "204": {
+            "description": "CORS preflight successful",
+            "headers": {
+              "Access-Control-Allow-Origin": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Methods": {
+                "schema": {
+                  "type": "string"
+                }
+              },
+              "Access-Control-Allow-Headers": {
+                "schema": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "components": {
+    "schemas": {
+      "ChatGPTRequest": {
+        "type": "object",
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "The main message or prompt from ChatGPT"
+          },
+          "input": {
+            "type": "string",
+            "description": "User input to be processed"
+          },
+          "query": {
+            "type": "string",
+            "description": "Query string for search or lookup operations"
+          },
+          "action": {
+            "type": "string",
+            "description": "Specific action to be performed"
+          },
+          "conversation_id": {
+            "type": "string",
+            "description": "Unique identifier for the conversation session"
+          },
+          "user_id": {
+            "type": "string",
+            "description": "Identifier for the user making the request"
+          }
+        },
+        "additionalProperties": true,
+        "example": {
+          "message": "Hello from ChatGPT",
+          "conversation_id": "conv_123456",
+          "user_id": "user_789"
+        }
+      },
+      "ChatGPTResponse": {
+        "type": "object",
+        "required": ["status", "message", "timestamp"],
+        "properties": {
+          "status": {
+            "type": "string",
+            "enum": ["success", "error"],
+            "description": "Status of the request processing"
+          },
+          "message": {
+            "type": "string",
+            "description": "Human-readable response message"
+          },
+          "data": {
+            "type": "object",
+            "description": "Additional data related to the response",
+            "additionalProperties": true
+          },
+          "conversation_id": {
+            "type": "string",
+            "description": "Echo of the conversation ID from the request"
+          },
+          "response": {
+            "type": "string",
+            "description": "Main response content"
+          },
+          "result": {
+            "type": "string",
+            "description": "Result status indicator"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time",
+            "description": "ISO timestamp of when the response was generated"
+          },
+          "_debug": {
+            "type": "object",
+            "description": "Debug information (only in development)",
+            "properties": {
+              "requestId": {
+                "type": "string"
+              },
+              "processingTime": {
+                "type": "string"
+              },
+              "businessLogicTime": {
+                "type": "string"
+              },
+              "memoryUsed": {
+                "type": "number"
+              }
+            }
+          }
+        },
+        "example": {
+          "status": "success",
+          "message": "Processed message: Hello from ChatGPT",
+          "data": {
+            "originalMessage": "Hello from ChatGPT"
+          },
+          "conversation_id": "conv_123456",
+          "response": "Processed message: Hello from ChatGPT",
+          "result": "success",
+          "timestamp": "2025-07-06T01:00:00.000Z"
+        }
+      },
+      "DiscoveryResponse": {
+        "type": "object",
+        "required": ["name", "description", "version", "status"],
+        "properties": {
+          "name": {
+            "type": "string",
+            "example": "Lions of Zion API"
+          },
+          "description": {
+            "type": "string",
+            "example": "Custom ChatGPT Connector for Lions of Zion Organization"
+          },
+          "version": {
+            "type": "string",
+            "example": "2.0"
+          },
+          "status": {
+            "type": "string",
+            "example": "active"
+          },
+          "capabilities": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "example": ["message_processing", "query_handling", "action_execution"]
+          },
+          "endpoints": {
+            "type": "object",
+            "properties": {
+              "webhook": {
+                "type": "string"
+              },
+              "methods": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "formats": {
+            "type": "object",
+            "properties": {
+              "request": {
+                "type": "object"
+              },
+              "response": {
+                "type": "object"
+              }
+            }
+          },
+          "cors": {
+            "type": "object",
+            "properties": {
+              "enabled": {
+                "type": "boolean"
+              },
+              "origins": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "methods": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "headers": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          },
+          "authentication": {
+            "type": "object",
+            "properties": {
+              "required": {
+                "type": "boolean"
+              },
+              "type": {
+                "type": "string"
+              }
+            }
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "requestId": {
+            "type": "string"
+          }
+        }
+      },
+      "ErrorResponse": {
+        "type": "object",
+        "required": ["message", "error"],
+        "properties": {
+          "message": {
+            "type": "string",
+            "description": "Human-readable error message"
+          },
+          "error": {
+            "type": "string",
+            "description": "Technical error details"
+          },
+          "requestId": {
+            "type": "string",
+            "description": "Unique request identifier for tracking"
+          },
+          "processingTime": {
+            "type": "string",
+            "description": "Time taken to process the request"
+          },
+          "timestamp": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "errorType": {
+            "type": "string",
+            "description": "Classification of the error type"
+          }
+        }
+      }
+    }
+  },
+  "security": [],
+  "tags": [
+    {
+      "name": "ChatGPT Integration",
+      "description": "Endpoints for ChatGPT connector integration"
+    }
+  ]
+}
