@@ -81,12 +81,28 @@ export async function POST(request: NextRequest) {
   const requestId = `req_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
   const startMetrics = getPerformanceMetrics();
   
+  // ChatGPT Actions validation
+  const validation = validateChatGPTAction(request);
+  if (!validation.isValid) {
+    return NextResponse.json(
+      { 
+        message: 'Invalid ChatGPT Action request', 
+        error: validation.error,
+        requestId 
+      },
+      { 
+        status: 400,
+        headers: getCorsHeaders()
+      }
+    );
+  }
+  
   // Structured logging for request start
   logStructured({
     timestamp: new Date().toISOString(),
     level: 'INFO',
     requestId,
-    event: 'webhook_request_start',
+    event: 'chatgpt_webhook_request_start',
     data: {
       method: request.method,
       url: request.url,
@@ -95,7 +111,8 @@ export async function POST(request: NextRequest) {
       contentLength: request.headers.get('content-length'),
       origin: request.headers.get('origin'),
       xForwardedFor: request.headers.get('x-forwarded-for'),
-      xRealIp: request.headers.get('x-real-ip')
+      xRealIp: request.headers.get('x-real-ip'),
+      isChatGPTAction: request.headers.get('user-agent')?.includes('OpenAI') || request.headers.get('user-agent')?.includes('ChatGPT')
     },
     memoryUsage: startMetrics.memoryUsage
   });
@@ -599,4 +616,21 @@ export async function OPTIONS(request: NextRequest) {
     status: 204, // No Content
     headers: corsHeaders
   });
+}
+
+// ChatGPT Actions specific validation
+function validateChatGPTAction(request: NextRequest): { isValid: boolean; error?: string } {
+  // Check for ChatGPT-specific headers that indicate this is an Actions validation call
+  const userAgent = request.headers.get('user-agent') || '';
+  const origin = request.headers.get('origin') || '';
+  
+  // ChatGPT Actions often sends validation requests with specific patterns
+  if (userAgent.includes('OpenAI') || userAgent.includes('ChatGPT') || 
+      origin.includes('openai.com') || origin.includes('chatgpt.com')) {
+    
+    // For ChatGPT Actions, we need to ensure the endpoint responds correctly to validation
+    return { isValid: true };
+  }
+  
+  return { isValid: true }; // Allow all other requests
 }

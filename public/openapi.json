@@ -1,12 +1,17 @@
 {
   "openapi": "3.0.0",
   "info": {
-    "title": "Lions of Zion ChatGPT Connector API",
-    "description": "Custom webhook API for ChatGPT integration with Lions of Zion services",
+    "title": "Lions of Zion ChatGPT Actions API",
+    "description": "Custom GPT Action for Lions of Zion services - processes messages, queries, and actions from ChatGPT users. This API enables ChatGPT to interact with Lions of Zion's organizational capabilities.",
     "version": "2.0.0",
     "contact": {
       "name": "Lions of Zion Support",
-      "url": "https://lionsofzion-official.org"
+      "url": "https://lionsofzion-official.org",
+      "email": "support@lionsofzion-official.org"
+    },
+    "license": {
+      "name": "Proprietary",
+      "url": "https://lionsofzion-official.org/terms"
     }
   },
   "servers": [
@@ -35,9 +40,10 @@
         }
       },
       "post": {
-        "summary": "Process ChatGPT webhook request",
-        "description": "Main endpoint for processing requests from ChatGPT connectors",
-        "operationId": "processWebhook",
+        "summary": "Process user message or action",
+        "description": "Main endpoint for processing user messages, queries, and actions from ChatGPT. This operation handles various types of user inputs and returns appropriate responses for Lions of Zion services.",
+        "operationId": "processUserRequest",
+        "tags": ["ChatGPT Actions"],
         "requestBody": {
           "required": true,
           "content": {
