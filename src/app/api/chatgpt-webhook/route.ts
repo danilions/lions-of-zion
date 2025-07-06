@@ -29,6 +29,16 @@ function logStructured(log: StructuredLog): void {
   console.log(`[STRUCTURED][${log.level}][${log.requestId}] ${log.event}`, JSON.stringify(logEntry));
 }
 
+// CORS headers for ChatGPT Connector compatibility
+function getCorsHeaders(): Record<string, string> {
+  return {
+    'Access-Control-Allow-Origin': '*',
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type, Authorization, Accept, Origin, X-Requested-With',
+    'Access-Control-Max-Age': '86400'
+  };
+}
+
 // Performance and memory monitoring
 function getPerformanceMetrics(): { memoryUsage: NodeJS.MemoryUsage; uptime: number } {
   return {
@@ -162,6 +172,7 @@ export async function POST(request: NextRequest) {
           { 
             status: 400,
             headers: {
+              ...getCorsHeaders(),
               'X-Request-ID': requestId,
               'X-Processing-Time': `${processingTime}ms`
             }
@@ -232,6 +243,7 @@ export async function POST(request: NextRequest) {
         { 
           status: 200,
           headers: {
+            ...getCorsHeaders(),
             'X-Request-ID': requestId,
             'X-Processing-Time': `${totalProcessingTime}ms`,
             'X-Business-Logic-Time': `${businessLogicTime}ms`,
@@ -300,6 +312,7 @@ export async function POST(request: NextRequest) {
       { 
         status: statusCode,
         headers: {
+          ...getCorsHeaders(),
           'X-Request-ID': requestId,
           'X-Processing-Time': `${processingTime}ms`,
           'X-Error-Type': isTimeout ? 'timeout' : 'internal_error'
@@ -339,7 +352,8 @@ export async function GET(request: NextRequest) {
     { 
       status: 405,
       headers: {
-        'Allow': 'POST',
+        ...getCorsHeaders(),
+        'Allow': 'POST, OPTIONS',
         'X-Request-ID': requestId
       }
     }
@@ -370,7 +384,8 @@ export async function PUT(request: NextRequest) {
     { 
       status: 405,
       headers: {
-        'Allow': 'POST',
+        ...getCorsHeaders(),
+        'Allow': 'POST, OPTIONS',
         'X-Request-ID': requestId
       }
     }
@@ -401,7 +416,8 @@ export async function DELETE(request: NextRequest) {
     { 
       status: 405,
       headers: {
-        'Allow': 'POST',
+        ...getCorsHeaders(),
+        'Allow': 'POST, OPTIONS',
         'X-Request-ID': requestId
       }
     }
@@ -432,9 +448,46 @@ export async function PATCH(request: NextRequest) {
     { 
       status: 405,
       headers: {
-        'Allow': 'POST',
+        ...getCorsHeaders(),
+        'Allow': 'POST, OPTIONS',
         'X-Request-ID': requestId
       }
     }
   );
+}
+
+/**
+ * OPTIONS handler for CORS preflight requests - Required for ChatGPT Connectors
+ * Enables cross-origin requests from ChatGPT's domain
+ */
+export async function OPTIONS(request: NextRequest) {
+  const requestId = `req_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+  
+  logStructured({
+    timestamp: new Date().toISOString(),
+    level: 'INFO',
+    requestId,
+    event: 'cors_preflight_request',
+    data: {
+      origin: request.headers.get('origin'),
+      requestMethod: request.headers.get('access-control-request-method'),
+      requestHeaders: request.headers.get('access-control-request-headers'),
+      userAgent: request.headers.get('user-agent')
+    }
+  });
+
+  // Set comprehensive CORS headers for ChatGPT Connector compatibility
+  const corsHeaders = {
+    'Access-Control-Allow-Origin': '*', // Allow all origins for ChatGPT Connectors
+    'Access-Control-Allow-Methods': 'POST, OPTIONS',
+    'Access-Control-Allow-Headers': 'Content-Type, Authorization, Accept, Origin, X-Requested-With',
+    'Access-Control-Max-Age': '86400', // Cache preflight for 24 hours
+    'X-Request-ID': requestId,
+    'X-CORS-Enabled': 'true'
+  };
+
+  return new NextResponse(null, {
+    status: 204, // No Content
+    headers: corsHeaders
+  });
 }
